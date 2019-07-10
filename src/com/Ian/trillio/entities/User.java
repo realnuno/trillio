@@ -3,7 +3,7 @@ package com.Ian.trillio.entities;
 public class User {
     private long id;
     private String email;
-    private String password;
+    private String passWord;
     private String firstName;
     private String lastName;
     private int gender;
@@ -24,13 +24,12 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public String getPassword() {
-        return password;
+    public String getPassWord() {
+        return passWord;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
     }
 
     public String getFirstName() {

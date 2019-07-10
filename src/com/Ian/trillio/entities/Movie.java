@@ -1,6 +1,6 @@
 package com.Ian.trillio.entities;
 
-public class Movie extends Bookmark {
+public class Movie extends Bookmarks {
     private int releaseYear;
     private String[] cast;
     private String[] directors;

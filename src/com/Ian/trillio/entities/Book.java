@@ -1,11 +1,11 @@
 package com.Ian.trillio.entities;
 
-public class Book extends Bookmark {
+public class Book extends Bookmarks {
     private int publicationYear;
     private String publisher;
     private String[] authors;
     private String genre;
-    private String amazonRating;
+    private double amazonRating;
 
     public int getPublicationYear() {
         return publicationYear;
@@ -39,11 +39,11 @@ public class Book extends Bookmark {
         this.genre = genre;
     }
 
-    public String getAmazonRating() {
+    public double getAmazonRating() {
         return amazonRating;
     }
 
-    public void setAmazonRating(String amazonRating) {
+    public void setAmazonRating(double amazonRating) {
         this.amazonRating = amazonRating;
     }
 }

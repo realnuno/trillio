@@ -1,6 +1,6 @@
 package com.Ian.trillio.entities;
 
-public class WebLink extends Bookmark {
+public class WebLink extends Bookmarks {
     private String url;
     private String host;
 

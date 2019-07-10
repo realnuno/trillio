@@ -28,7 +28,7 @@ public class BookmarkManager {
         return movie;
     }
 
-    public Book createBook(long id, String title, int publicationYear, String publisher, String[] authors, String genre, String amazonRating) {
+    public Book createBook(long id, String title, int publicationYear, String publisher, String[] authors, String genre, double amazonRating) {
         Book book = new Book();
 
         book.setId(id);

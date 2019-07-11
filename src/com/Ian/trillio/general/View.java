@@ -1,5 +1,6 @@
-package com.Ian.trillio;
+package com.Ian.trillio.general;
 
+import com.Ian.trillio.controllers.BookmarkController;
 import com.Ian.trillio.entities.Bookmarks;
 import com.Ian.trillio.entities.User;
 
@@ -12,6 +13,9 @@ public class View {
 
             Bookmarks bookmark = bookmarks[typeOffset][bookmarkOffset];
 
+            BookmarkController.getInstance().saveUserBookmark(user, bookmark);
+
+            System.out.println(bookmark);
         }
     }
 }

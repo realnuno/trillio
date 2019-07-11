@@ -1,14 +1,11 @@
 package com.Ian.trillio.managers;
 
 import com.Ian.trillio.Dao.BookmarkDao;
-import com.Ian.trillio.entities.Book;
-import com.Ian.trillio.entities.Bookmarks;
-import com.Ian.trillio.entities.Movie;
-import com.Ian.trillio.entities.WebLink;
+import com.Ian.trillio.entities.*;
 
 public class BookmarkManager {
     private static BookmarkManager instance = new BookmarkManager();
-    private static BookmarkDao bookmarkDao = new BookmarkDao();
+    private static BookmarkDao dao = new BookmarkDao();
 
     private BookmarkManager() {}
 
@@ -57,6 +54,14 @@ public class BookmarkManager {
     }
 
     public Bookmarks[][] getBookmarks() {
-        return bookmarkDao.getBookmarks();
+        return dao.getBookmarks();
+    }
+
+    public void saveUserBookmark(User user, Bookmarks bookmarks) {
+        UserBookmark userBookmark = new UserBookmark();
+        userBookmark.setUser(user);
+        userBookmark.setBookMark(bookmarks);
+
+        dao.saveUserBookmark(userBookmark);
     }
 }

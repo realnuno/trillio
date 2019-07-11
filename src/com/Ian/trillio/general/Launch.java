@@ -1,4 +1,4 @@
-package com.Ian.trillio;
+package com.Ian.trillio.general;
 
 import com.Ian.trillio.entities.Bookmarks;
 import com.Ian.trillio.entities.User;
@@ -41,7 +41,7 @@ public class Launch {
     }
 
     private static void startBookmarking() {
-        System.out.println("2. Bookmarking...");
+        System.out.println("\n2. Bookmarking...");
         for(User user : users) {
             View.bookmark(user, bookmarks);
         }

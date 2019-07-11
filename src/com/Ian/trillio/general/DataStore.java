@@ -4,7 +4,7 @@ import com.Ian.trillio.constants.BookGenre;
 import com.Ian.trillio.constants.Gender;
 import com.Ian.trillio.constants.MovieGenre;
 import com.Ian.trillio.constants.UserType;
-import com.Ian.trillio.entities.Bookmarks;
+import com.Ian.trillio.entities.Bookmark;
 import com.Ian.trillio.entities.User;
 import com.Ian.trillio.entities.UserBookmark;
 import com.Ian.trillio.managers.BookmarkManager;
@@ -21,8 +21,8 @@ public class DataStore {
         return users;
     }
 
-    private static Bookmarks[][] bookmarks = new Bookmarks[BOOKMARK_TYPE_COUNT][BOOKMARK_COUNT_PER_TYPE];
-    public static Bookmarks[][] getBookmarks() {
+    private static Bookmark[][] bookmarks = new Bookmark[BOOKMARK_TYPE_COUNT][BOOKMARK_COUNT_PER_TYPE];
+    public static Bookmark[][] getBookmarks() {
         return bookmarks;
     }
 

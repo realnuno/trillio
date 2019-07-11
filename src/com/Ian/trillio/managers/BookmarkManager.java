@@ -53,14 +53,14 @@ public class BookmarkManager {
         return webLink;
     }
 
-    public Bookmarks[][] getBookmarks() {
+    public Bookmark[][] getBookmarks() {
         return dao.getBookmarks();
     }
 
-    public void saveUserBookmark(User user, Bookmarks bookmarks) {
+    public void saveUserBookmark(User user, Bookmark bookmark) {
         UserBookmark userBookmark = new UserBookmark();
         userBookmark.setUser(user);
-        userBookmark.setBookMark(bookmarks);
+        userBookmark.setBookMark(bookmark);
 
         dao.saveUserBookmark(userBookmark);
     }

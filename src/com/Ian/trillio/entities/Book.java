@@ -2,7 +2,7 @@ package com.Ian.trillio.entities;
 
 import java.util.Arrays;
 
-public class Book extends Bookmarks {
+public class Book extends Bookmark {
     private int publicationYear;
     private String publisher;
     private String[] authors;

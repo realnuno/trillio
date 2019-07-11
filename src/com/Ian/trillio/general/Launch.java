@@ -1,13 +1,13 @@
 package com.Ian.trillio.general;
 
-import com.Ian.trillio.entities.Bookmarks;
+import com.Ian.trillio.entities.Bookmark;
 import com.Ian.trillio.entities.User;
 import com.Ian.trillio.managers.BookmarkManager;
 import com.Ian.trillio.managers.UserManager;
 
 public class Launch {
     private static User[] users;
-    private static Bookmarks[][] bookmarks;
+    private static Bookmark[][] bookmarks;
 
     private static void loadData() {
         System.out.println("1. Loading data...");
@@ -28,8 +28,8 @@ public class Launch {
     }
 
     private static void printBookmarkData() {
-        for(Bookmarks[] bookmarkList : bookmarks) {
-            for(Bookmarks bookmark : bookmarkList) {
+        for(Bookmark[] bookmarkList : bookmarks) {
+            for(Bookmark bookmark : bookmarkList) {
                 System.out.println(bookmark);
             }
         }

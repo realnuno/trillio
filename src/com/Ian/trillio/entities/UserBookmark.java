@@ -2,7 +2,7 @@ package com.Ian.trillio.entities;
 
 public class UserBookmark {
     private User user;
-    private Bookmarks bookMark;
+    private Bookmark bookMark;
 
     public User getUser() {
         return user;
@@ -12,11 +12,11 @@ public class UserBookmark {
         this.user = user;
     }
 
-    public Bookmarks getBookMark() {
+    public Bookmark getBookMark() {
         return bookMark;
     }
 
-    public void setBookMark(Bookmarks bookMark) {
+    public void setBookMark(Bookmark bookMark) {
         this.bookMark = bookMark;
     }
 }

@@ -2,7 +2,7 @@ package com.Ian.trillio.entities;
 
 import java.util.Arrays;
 
-public class Movie extends Bookmarks {
+public class Movie extends Bookmark {
     private int releaseYear;
     private String[] cast;
     private String[] directors;

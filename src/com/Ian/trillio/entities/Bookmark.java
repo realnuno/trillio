@@ -1,6 +1,6 @@
 package com.Ian.trillio.entities;
 
-public class Bookmarks {
+public class Bookmark {
     private long id;
     private String title;
     private String profileUrl;

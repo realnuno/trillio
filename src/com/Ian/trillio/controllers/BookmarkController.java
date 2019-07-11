@@ -1,6 +1,6 @@
 package com.Ian.trillio.controllers;
 
-import com.Ian.trillio.entities.Bookmarks;
+import com.Ian.trillio.entities.Bookmark;
 import com.Ian.trillio.entities.User;
 import com.Ian.trillio.managers.BookmarkManager;
 
@@ -13,7 +13,7 @@ public class BookmarkController {
 
     private BookmarkController() {}
 
-    public void saveUserBookmark(User user, Bookmarks bookmarks) {
-        BookmarkManager.getInstance().saveUserBookmark(user, bookmarks);
+    public void saveUserBookmark(User user, Bookmark bookmark) {
+        BookmarkManager.getInstance().saveUserBookmark(user, bookmark);
     }
 }

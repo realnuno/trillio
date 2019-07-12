@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="887bff71-5ef6-4691-b328-a20a287e2a18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/constants/KidsFriendlyStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/partner/Sharable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/Ian/trillio/entities/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/Ian/trillio/entities/MovieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/Ian/trillio/entities/WebLinkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/constants/MovieGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/constants/MovieGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/controllers/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/controllers/BookmarkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Bookmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Bookmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trillio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trillio.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="44" column="84" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+            <state relative-caret-position="240">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -108,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/KidsFriendlyStatus.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -200,6 +185,11 @@
             <path>
               <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
               <item name="trillio" type="462c0819:PsiDirectoryNode" />
+              <item name="Referenced Libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trillio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,55 +197,6 @@
               <item name="trillio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="trillio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="general" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="managers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trillio" type="462c0819:PsiDirectoryNode" />
-              <item name="partner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
@@ -265,11 +206,6 @@
             <path>
               <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="trillio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="commons-lang3-3.9" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -443,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562850932300</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented Sharing">
+      <created>1562943818058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562943818058</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -466,11 +409,19 @@
       <configuration name="BookTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28826895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,11 +430,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.8240964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21445782" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21445782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
@@ -572,7 +523,8 @@
     <MESSAGE value="taking some break" />
     <MESSAGE value="finished Dao" />
     <MESSAGE value="renamed Bookmark" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed Bookmark" />
+    <MESSAGE value="implemented Sharing" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Sharing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Main.java" />
@@ -723,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/KidsFriendlyStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -743,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="44" column="84" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+        <state relative-caret-position="240">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>

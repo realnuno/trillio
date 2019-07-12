@@ -1,5 +1,7 @@
 package com.Ian.trillio.entities;
 
+import com.Ian.trillio.constants.MovieGenre;
+
 import java.util.Arrays;
 
 public class Movie extends Bookmark {
@@ -58,6 +60,14 @@ public class Movie extends Bookmark {
                 ", genre='" + genre + '\'' +
                 ", imdbRating=" + imdbRating +
                 '}';
+    }
+
+    @Override
+    public boolean isKidsFriendlyEligible() {
+        if(genre == MovieGenre.THRILLERS || genre == MovieGenre.HORROR) {
+            return false;
+        }
+        return true;
     }
 }
 

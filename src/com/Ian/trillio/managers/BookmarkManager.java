@@ -2,6 +2,11 @@ package com.Ian.trillio.managers;
 
 import com.Ian.trillio.Dao.BookmarkDao;
 import com.Ian.trillio.entities.*;
+import com.Ian.trillio.util.HttpConnect;
+import com.Ian.trillio.util.IOUtil;
+
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
 
 public class BookmarkManager {
     private static BookmarkManager instance = new BookmarkManager();
@@ -61,6 +66,22 @@ public class BookmarkManager {
         UserBookmark userBookmark = new UserBookmark();
         userBookmark.setUser(user);
         userBookmark.setBookMark(bookmark);
+
+        if(bookmark instanceof WebLink) {
+            try {
+                String url = ((WebLink)bookmark).getUrl();
+                if(!url.endsWith(".pdf")) {
+                    String webpage = HttpConnect.download(url);
+                    if(webpage != null) {
+                        IOUtil.write(webpage, bookmark.getId());
+                    }
+                }
+            } catch (URISyntaxException e) {
+                e.printStackTrace();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+        }
 
         dao.saveUserBookmark(userBookmark);
     }

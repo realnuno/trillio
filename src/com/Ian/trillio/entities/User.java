@@ -24,7 +24,6 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
-
     public String getPassWord() {
         return passWord;
     }
@@ -63,5 +62,18 @@ public class User {
 
     public void setUserType(String userType) {
         this.userType = userType;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", email='" + email + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", gender=" + gender +
+                ", userType='" + userType + '\'' +
+                '}';
     }
 }

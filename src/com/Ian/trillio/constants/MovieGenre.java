@@ -1,7 +1,7 @@
 package com.Ian.trillio.constants;
 
 public class MovieGenre {
-    private MovieGenre() {}
+//    private MovieGenre() {}
 
     public static final String CLASSICS = "Classics";
     public static final String DRAMA = "Drama";

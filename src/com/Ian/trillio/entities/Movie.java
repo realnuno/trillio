@@ -1,6 +1,10 @@
 package com.Ian.trillio.entities;
 
-public class Movie extends Bookmarks {
+import com.Ian.trillio.constants.MovieGenre;
+
+import java.util.Arrays;
+
+public class Movie extends Bookmark {
     private int releaseYear;
     private String[] cast;
     private String[] directors;
@@ -45,6 +49,25 @@ public class Movie extends Bookmarks {
 
     public void setImdbRating(double imdbRating) {
         this.imdbRating = imdbRating;
+    }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "releaseYear=" + releaseYear +
+                ", cast=" + Arrays.toString(cast) +
+                ", directors=" + Arrays.toString(directors) +
+                ", genre='" + genre + '\'' +
+                ", imdbRating=" + imdbRating +
+                '}';
+    }
+
+    @Override
+    public boolean isKidsFriendlyEligible() {
+        if(genre == MovieGenre.THRILLERS || genre == MovieGenre.HORROR) {
+            return false;
+        }
+        return true;
     }
 }
 

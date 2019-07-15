@@ -2,7 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="887bff71-5ef6-4691-b328-a20a287e2a18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/2002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/2004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/Book.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/Movie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/User.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/Web-Link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/2002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/2004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/Book.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/META-INF/trillio.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/Movie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/User.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/Web-Link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/Dao/BookmarkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/BookGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/KidsFriendlyStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/MovieGenre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/UserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/controllers/BookmarkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Bookmark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/UserBookmark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/WebLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/DataStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/Launch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/managers/BookmarkManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/managers/UserManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/partner/Sharable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/util/HttpConnect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/util/IOUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/BookTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/MovieTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/WebLinkTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/constants/KidsFriendlyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/controllers/BookmarkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Bookmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/partner/Sharable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/util/HttpConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/Ian/trillio/entities/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/Ian/trillio/entities/MovieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/Ian/trillio/entities/WebLinkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/DataStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/constants/MovieGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/constants/MovieGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Bookmarks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/UserBookmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/UserBookmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trillio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trillio.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/UserBookmark.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -30,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -75,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -83,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="630">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,26 +160,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/DataStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,8 +271,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
@@ -213,7 +287,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launch">
+    <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Ian.trillio.general.Launch" />
+      <module name="trillio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Ian.trillio.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Ian.trillio.Main" />
       <module name="trillio" />
@@ -224,6 +311,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -255,8 +347,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25138998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25138998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,7 +366,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/UserBookmark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -355,7 +448,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -376,21 +469,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="630">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -414,6 +500,35 @@
             <element signature="e#1005#1006#0" expanded="true" />
             <element signature="e#1055#1056#0" expanded="true" />
             <element signature="e#1087#1088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,10 +595,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>commons-lang3-3.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23333333" />
               </list>
             </option>
           </splitter-proportions>

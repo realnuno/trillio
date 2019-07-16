@@ -7,13 +7,15 @@ import com.Ian.trillio.entities.Bookmark;
 import com.Ian.trillio.entities.User;
 import com.Ian.trillio.partner.Sharable;
 
+import java.util.List;
+
 public class View {
-    public static void browser(User user, Bookmark[][] bookmarks) {
+    public static void browser(User user, List<List<Bookmark>> bookmarks) {
         System.out.println("\n" + user.getEmail() + " is browsing items...");
         int bookmarkCount = 0;
-        for(Bookmark[] bookmarkList : bookmarks) {
+        for(List<Bookmark> bookmarkList : bookmarks) {
             for(Bookmark bookmark : bookmarkList) {
-                if(bookmarkCount < DataStore.USER_BOOKMARK_LIMIT) {
+                //if(bookmarkCount < DataStore.USER_BOOKMARK_LIMIT) {
                     boolean isBookmarked = getBookmarkDecision(bookmark);
                     if(isBookmarked) {
                         bookmarkCount++;
@@ -36,7 +38,7 @@ public class View {
                             }
                         }
                     }
-                }
+                //}
             }
         }
     }

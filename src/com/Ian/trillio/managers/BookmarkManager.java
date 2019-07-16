@@ -7,6 +7,7 @@ import com.Ian.trillio.util.IOUtil;
 
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
+import java.util.List;
 
 public class BookmarkManager {
     private static BookmarkManager instance = new BookmarkManager();
@@ -58,7 +59,7 @@ public class BookmarkManager {
         return webLink;
     }
 
-    public Bookmark[][] getBookmarks() {
+    public List<List<Bookmark>> getBookmarks() {
         return dao.getBookmarks();
     }
 

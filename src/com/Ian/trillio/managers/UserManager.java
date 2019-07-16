@@ -3,6 +3,8 @@ package com.Ian.trillio.managers;
 import com.Ian.trillio.Dao.UserDao;
 import com.Ian.trillio.entities.User;
 
+import java.util.List;
+
 public class UserManager {
     private static UserManager instance = new UserManager();
     private static UserDao dao = new UserDao();
@@ -26,7 +28,7 @@ public class UserManager {
         return user;
     }
 
-    public User[] getUsers() {
+    public List<User> getUsers() {
         return dao.getUsers();
     }
 }

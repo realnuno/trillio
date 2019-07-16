@@ -1,15 +1,14 @@
 package com.Ian.trillio.util;
 
 import java.io.*;
+import java.util.List;
 
 public class IOUtil {
-    public static void read(String[] data, String fileName) {
+    public static void read(List<String> data, String fileName) {
         try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(fileName), "UTF-8"))) {
             String line;
-            int count = 0;
             while ((line = br.readLine()) != null) {
-                data[count] = line;
-                count++;
+                data.add(line);
             }
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();

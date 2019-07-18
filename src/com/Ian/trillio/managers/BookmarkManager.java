@@ -2,6 +2,8 @@ package com.Ian.trillio.managers;
 
 import com.Ian.trillio.Dao.BookmarkDao;
 import com.Ian.trillio.constants.BookGenre;
+import com.Ian.trillio.constants.KidsFriendlyStatus;
+import com.Ian.trillio.constants.MovieGenre;
 import com.Ian.trillio.entities.*;
 import com.Ian.trillio.util.HttpConnect;
 import com.Ian.trillio.util.IOUtil;
@@ -20,7 +22,7 @@ public class BookmarkManager {
         return instance;
     }
 
-    public Movie createMovie(long id, String title, String profileUrl, int releaseYear, String[] cast, String[] directors, String genre, double imdbRating) {
+    public Movie createMovie(long id, String title, String profileUrl, int releaseYear, String[] cast, String[] directors, MovieGenre genre, double imdbRating) {
         Movie movie = new Movie();
 
         movie.setId(id);
@@ -88,7 +90,7 @@ public class BookmarkManager {
         dao.saveUserBookmark(userBookmark);
     }
 
-    public void setKidFriendlyStatus(User user, String kidFriendlyStatus, Bookmark bookmark) {
+    public void setKidFriendlyStatus(User user, KidsFriendlyStatus kidFriendlyStatus, Bookmark bookmark) {
         bookmark.setKidFriendlyStatus(kidFriendlyStatus);
         bookmark.setKidFriendlyMarkedBy(user);
 

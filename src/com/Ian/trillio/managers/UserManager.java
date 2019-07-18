@@ -2,6 +2,7 @@ package com.Ian.trillio.managers;
 
 import com.Ian.trillio.Dao.UserDao;
 import com.Ian.trillio.constants.Gender;
+import com.Ian.trillio.constants.UserType;
 import com.Ian.trillio.entities.User;
 
 import java.util.List;
@@ -16,7 +17,7 @@ public class UserManager {
         return instance;
     }
 
-    public User createUser(long id, String email, String passWord, String firstName, String lastName, Gender gender, String userType) {
+    public User createUser(long id, String email, String passWord, String firstName, String lastName, Gender gender, UserType userType) {
         User user = new User();
         user.setId(id);
         user.setEmail(email);

@@ -2,6 +2,8 @@ package com.Ian.trillio.general;
 
 import com.Ian.trillio.constants.BookGenre;
 import com.Ian.trillio.constants.Gender;
+import com.Ian.trillio.constants.MovieGenre;
+import com.Ian.trillio.constants.UserType;
 import com.Ian.trillio.entities.*;
 import com.Ian.trillio.managers.BookmarkManager;
 import com.Ian.trillio.managers.UserManager;
@@ -48,7 +50,8 @@ public class DataStore {
                 gender = Gender.TRANSGENDER;
             }
 
-            User user = UserManager.getInstance().createUser(Long.parseLong(values[0]), values[1], values[2], values[3], values[4], gender, values[6]);
+            User user = UserManager.getInstance().createUser(Long.parseLong(values[0]), values[1], values[2], values[3], values[4], gender, UserType.valueOf(values[6].toUpperCase()));
+            System.out.println(user.toString());
             users.add(user);
         }
 
@@ -86,7 +89,7 @@ public class DataStore {
             String[] values = row.split("\t");
             String[] cast = values[3].split(", ");
             String[] directors = values[4].split(", ");
-            Bookmark bookmark  = BookmarkManager.getInstance().createMovie(Long.parseLong(values[0]), values[1], "", Integer.parseInt(values[2]), cast, directors, values[5], Double.parseDouble(values[6]));
+            Bookmark bookmark  = BookmarkManager.getInstance().createMovie(Long.parseLong(values[0]), values[1], "", Integer.parseInt(values[2]), cast, directors, MovieGenre.valueOf(values[5].toUpperCase()) , Double.parseDouble(values[6]));
             bookmarkList.add(bookmark);
         }
         bookmarks.add(bookmarkList);

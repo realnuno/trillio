@@ -1,9 +1,14 @@
 package com.Ian.trillio.constants;
 
-public class KidsFriendlyStatus {
-    private KidsFriendlyStatus() {}
+public enum KidsFriendlyStatus {
 
-    public static final String APPROVED = "approved";
-    public static final String REJECTED = "rejected";
-    public static final String UNKNOWN = "unknown";
+    APPROVED("approved"),
+    REJECTED("rejected"),
+    UNKNOWN("unknown");
+
+    private KidsFriendlyStatus(String status) {
+        this.status = status;
+    }
+
+    private String status;
 }

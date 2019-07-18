@@ -1,12 +1,14 @@
 package com.Ian.trillio.entities;
 
+import com.Ian.trillio.constants.Gender;
+
 public class User {
     private long id;
     private String email;
     private String passWord;
     private String firstName;
     private String lastName;
-    private int gender;
+    private Gender gender;
     private String userType;
 
     public long getId() {
@@ -48,11 +50,11 @@ public class User {
         this.lastName = lastName;
     }
 
-    public int getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(int gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 

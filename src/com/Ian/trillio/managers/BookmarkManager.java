@@ -1,6 +1,7 @@
 package com.Ian.trillio.managers;
 
 import com.Ian.trillio.Dao.BookmarkDao;
+import com.Ian.trillio.constants.BookGenre;
 import com.Ian.trillio.entities.*;
 import com.Ian.trillio.util.HttpConnect;
 import com.Ian.trillio.util.IOUtil;
@@ -34,7 +35,7 @@ public class BookmarkManager {
         return movie;
     }
 
-    public Book createBook(long id, String title, int publicationYear, String publisher, String[] authors, String genre, double amazonRating) {
+    public Book createBook(long id, String title, int publicationYear, String publisher, String[] authors, BookGenre genre, double amazonRating) {
         Book book = new Book();
 
         book.setId(id);

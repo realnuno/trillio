@@ -4,14 +4,13 @@
     <list default="true" id="887bff71-5ef6-4691-b328-a20a287e2a18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Referenced_Libraries/2002" beforeDir="false" afterPath="$PROJECT_DIR$/Referenced_Libraries/2002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -37,80 +36,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="318">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Movie.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/util/HttpConnect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="35">
+              <caret line="94" column="165" lean-forward="true" selection-start-line="94" selection-start-column="165" selection-end-line="94" selection-end-column="165" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="81" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Referenced_Libraries/Book.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="261">
+              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="122">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -140,9 +117,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java" />
-        <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java" />
-        <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/UserType.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/Bookmarks.java" />
@@ -157,19 +131,22 @@
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/MovieGenre.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/partner/Sharable.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" />
-        <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/KidsFriendlyStatus.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/controllers/BookmarkController.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/Bookmark.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/util/HttpConnect.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java" />
-        <option value="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" />
+        <option value="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" />
+        <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java" />
+        <option value="$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java" />
         <option value="$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java" />
+        <option value="$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java" />
       </list>
     </option>
   </component>
@@ -495,7 +472,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13447782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13447782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,14 +481,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.8240964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37349397" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.58072287" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25421688" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.35180724" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -627,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/Ian/trillio/entities/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/UserType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -648,20 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/partner/Sharable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -673,20 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-479">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -740,31 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -775,17 +696,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/Dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/util/IOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -796,10 +724,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/Ian/trillio/entities/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="35">
+          <caret line="94" column="165" lean-forward="true" selection-start-line="94" selection-start-column="165" selection-end-line="94" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Referenced_Libraries/Book.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/constants/BookGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ian/trillio/entities/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="81" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
         </state>
       </provider>
     </entry>

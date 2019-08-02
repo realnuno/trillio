@@ -32,24 +32,24 @@ body { }
 div.xe_mobile{ float:left; width:100%;}  /* 모바일에 최적화 된 화면으로 보기 div 문제 해결 위해서 */
 </style>
 <style type="text/css">
-#nivoslider_Nivoslider_1313454641 {
+#nivoslider_Nivoslider_498387021 {
     width:972px;
     height:188px;
     margin:0 auto;
 }
-#Nivoslider_1313454641 {
+#Nivoslider_498387021 {
 	position:relative;
     width:972px;
     height:164px;
 	border: 0px solid #ccc;
 }
-#Nivoslider_1313454641 img {
+#Nivoslider_498387021 img {
 	position:absolute;
 	top:0px;
 	left:0px;
 	display:none;
 }
-#Nivoslider_1313454641 a {
+#Nivoslider_498387021 a {
 	border:0;
 	display:block;
 }
@@ -161,28 +161,28 @@ a.nivo-nextNav {
 a.nivo-prevNav {
 	left:15px;
 }
-#Nivoslider_1313454641 .lightbox_image {
+#Nivoslider_498387021 .lightbox_image {
 	width:972px;
 	height:164px;
 	float:left;
 	display:block;
 	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/magnify.png') no-repeat center center;
 }
-#Nivoslider_1313454641 .lightbox_video {
+#Nivoslider_498387021 .lightbox_video {
 	width:972px;
 	height:164px;
 	float:left;
 	display:block;
 	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/video.png') no-repeat center center;
 }
-#Nivoslider_1313454641 .no_image {
+#Nivoslider_498387021 .no_image {
 	width:972px;
 	height:164px;
 	float:left;
 	display:block;
 	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/no_image.png') no-repeat center center;
 }
-#Nivoslider_1313454641 .open_doc {
+#Nivoslider_498387021 .open_doc {
 	width:972px;
 	height:164px;
 	float:left;
@@ -892,8 +892,8 @@ var menu_width = '975';
 </script>
 <![endif]-->
 
-<div id="nivoslider_Nivoslider_1313454641">
-<div id="Nivoslider_1313454641" class="nivoSlider">
+<div id="nivoslider_Nivoslider_498387021">
+<div id="Nivoslider_498387021" class="nivoSlider">
 								<!-- sejin7940 수정 (120212) - 확장변수 이용한 링크 설정시 제대로 안 되던 버그 수정 -->
 											<a href="https://snulife.com/index.php?mid=notice&document_srl=141964163"   /> 
 										
@@ -908,7 +908,7 @@ var menu_width = '975';
 </div>
 <script> 
 jQuery(document).ready(function($) {
-	$('#Nivoslider_1313454641').nivoSlider({
+	$('#Nivoslider_498387021').nivoSlider({
 		effect:'fade', //Specify sets like: 'fold,fade,sliceDown'
 		slices:20,
 		animSpeed:500, //Slide transition speed
@@ -931,7 +931,7 @@ jQuery(document).ready(function($) {
 		lastSlide: function(){}, //Triggers when last slide is shown
 		afterLoad: function(){} //Triggers when slider has loaded
 	});
-	$("#Nivoslider_1313454641").find("a[rel^='prettyPhoto']:not(.nivo-prevNav,.nivo-nextNav,.nivo-control)").prettyPhoto({theme:'pp_default'});
+	$("#Nivoslider_498387021").find("a[rel^='prettyPhoto']:not(.nivo-prevNav,.nivo-nextNav,.nivo-control)").prettyPhoto({theme:'pp_default'});
 });
 </script> 
 </div></div>
@@ -958,81 +958,81 @@ jQuery(document).ready(function($) {
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				1			</span>
-			                                                <a href="https://snulife.com/162612780" style="text-decoration:none; ">근데 우리학교 선배님...</a>
+			                                                <a href="https://snulife.com/163322147" style="text-decoration:none; ">국정운영 능력 최순실 ...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+17</td>
+            		<td style="color:#ccc; text-align:right;">+152</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				2			</span>
-			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
+			                                                <a href="https://snulife.com/163325115" style="text-decoration:none; ">美, 한국입장 이해해.....</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+9</td>
+            		<td style="color:#ccc; text-align:right;">+110</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				3			</span>
-			                                                <a href="https://snulife.com/162609474" style="text-decoration:none; ">아파트 구매 후기입니다.</a>
+			                                                <a href="https://snulife.com/163319360" style="text-decoration:none; ">다들행복하신가요(feat...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+8</td>
+            		<td style="color:#ccc; text-align:right;">+75</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				4			</span>
-			                                                <a href="https://snulife.com/162612913" style="text-decoration:none; ">중-러 군용기 경로.jpg</a>
+			                                                <a href="https://snulife.com/163321448" style="text-decoration:none; ">무도 태국 막춤쇼 클립...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+5</td>
+            		<td style="color:#ccc; text-align:right;">+62</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				5			</span>
-			                                                <a href="https://snulife.com/162603650" style="text-decoration:none; ">요즘 핫한 독서실 에어...</a>
+			                                                <a href="https://snulife.com/163305298" style="text-decoration:none; ">혼자 국밥 먹다 울컥</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+4</td>
+            		<td style="color:#ccc; text-align:right;">+61</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				6			</span>
-			                                                <a href="https://snulife.com/162608196" style="text-decoration:none; ">시댁 연락&amp;부양문제</a>
+			                                                <a href="https://snulife.com/163319779" style="text-decoration:none; ">이제 경제정책실패는 ...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+4</td>
+            		<td style="color:#ccc; text-align:right;">+56</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				7			</span>
-			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘...</a>
+			                                                <a href="https://snulife.com/163326537" style="text-decoration:none; ">민주당 지지자들 사이...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+4</td>
+            		<td style="color:#ccc; text-align:right;">+51</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				8			</span>
-			                                                <a href="https://snulife.com/162614883" style="text-decoration:none; ">버스 에어콘 빌런은 겪...</a>
+			                                                <a href="https://snulife.com/163320268" style="text-decoration:none; ">의사인데 일본이 제약...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+4</td>
+            		<td style="color:#ccc; text-align:right;">+51</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				9			</span>
-			                                                <a href="https://snulife.com/162592157" style="text-decoration:none; ">노르웨이산 고등어가 ...</a>
+			                                                <a href="https://snulife.com/163330080" style="text-decoration:none; ">문재인이 간첩이라는 ...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+4</td>
+            		<td style="color:#ccc; text-align:right;">+50</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				10			</span>
-			                                                <a href="https://snulife.com/162594706" style="text-decoration:none; ">1일 5사나 41일차</a>
+			                                                <a href="https://snulife.com/163330052" style="text-decoration:none; ">남편이 방콕 성매매 마...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+4</td>
+            		<td style="color:#ccc; text-align:right;">+46</td>
                 </tr>
                 </tbody>
     </table>
@@ -1045,7 +1045,7 @@ jQuery(document).ready(function($) {
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				1			</span>
-			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
+			                                                <a href="https://snulife.com/163148205" style="text-decoration:none; ">[퍼옴] 옆나라 천안문 ...</a>
                                             </td>
             		<td style="color:#ccc; text-align:right;">+636</td>
                 </tr>
@@ -1053,73 +1053,73 @@ jQuery(document).ready(function($) {
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				2			</span>
-			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정...</a>
+			                                                <a href="https://snulife.com/163063696" style="text-decoration:none; ">육아 판타지</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+544</td>
+            		<td style="color:#ccc; text-align:right;">+519</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				3			</span>
-			                                                <a href="https://snulife.com/162548147" style="text-decoration:none; ">[스압] 참스승 솔비.jpg</a>
+			                                                <a href="https://snulife.com/163054282" style="text-decoration:none; ">좌파? 우파? 나는 숲파!</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+445</td>
+            		<td style="color:#ccc; text-align:right;">+496</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				4			</span>
-			                                                <a href="https://snulife.com/162547581" style="text-decoration:none; ">짦은 회사생활, 배운 ...</a>
+			                                                <a href="https://snulife.com/163108127" style="text-decoration:none; ">미국인 여사친들이랑 ...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+392</td>
+            		<td style="color:#ccc; text-align:right;">+468</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				5			</span>
-			                                                <a href="https://snulife.com/162496276" style="text-decoration:none; ">(광고주의)참새침공이 ...</a>
+			                                                <a href="https://snulife.com/162990803" style="text-decoration:none; ">여자사무관들은 왜 남...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+342</td>
+            		<td style="color:#ccc; text-align:right;">+426</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				6			</span>
-			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘...</a>
+			                                                <a href="https://snulife.com/163202911" style="text-decoration:none; ">현대사회의 3대 모순</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+322</td>
+            		<td style="color:#ccc; text-align:right;">+424</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				7			</span>
-			                                                <a href="https://snulife.com/162482127" style="text-decoration:none; ">발로 치이는 아이돌 중...</a>
+			                                                <a href="https://snulife.com/163291495" style="text-decoration:none; ">대통령 담화 저만 충격...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+270</td>
+            		<td style="color:#ccc; text-align:right;">+390</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				8			</span>
-			                                                <a href="https://snulife.com/162507763" style="text-decoration:none; ">대한민국 남성들의 삶</a>
+			                                                <a href="https://snulife.com/163052065" style="text-decoration:none; ">여자들이 생각하는 최...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+264</td>
+            		<td style="color:#ccc; text-align:right;">+373</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				9			</span>
-			                                                <a href="https://snulife.com/162498162" style="text-decoration:none; ">국민MC 박명수.jpg</a>
+			                                                <a href="https://snulife.com/163065796" style="text-decoration:none; ">건물주.jpg</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+257</td>
+            		<td style="color:#ccc; text-align:right;">+372</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				10			</span>
-			                                                <a href="https://snulife.com/162582949" style="text-decoration:none; ">한약계 쾌거~ 신기술 ...</a>
+			                                                <a href="https://snulife.com/163007237" style="text-decoration:none; ">근데 솔직히 2~30대 여...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+230</td>
+            		<td style="color:#ccc; text-align:right;">+369</td>
                 </tr>
                 </tbody>
     </table>
@@ -1132,81 +1132,81 @@ jQuery(document).ready(function($) {
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				1			</span>
-			                                                <a href="https://snulife.com/161651807" style="text-decoration:none; ">턱걸이</a>
+			                                                <a href="https://snulife.com/163202911" style="text-decoration:none; ">현대사회의 3대 모순</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+1058</td>
+            		<td style="color:#ccc; text-align:right;">+424</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				2			</span>
-			                                                <a href="https://snulife.com/161381264" style="text-decoration:none; ">(펌) 어릴때 엄마가 보...</a>
+			                                                <a href="https://snulife.com/163291495" style="text-decoration:none; ">대통령 담화 저만 충격...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+785</td>
+            		<td style="color:#ccc; text-align:right;">+390</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				3			</span>
-			                                                <a href="https://snulife.com/161121089" style="text-decoration:none; ">술자리에서 친구가 해...</a>
+			                                                <a href="https://snulife.com/163305298" style="text-decoration:none; ">혼자 국밥 먹다 울컥</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+767</td>
+            		<td style="color:#ccc; text-align:right;">+364</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				4			</span>
-			                                                <a href="https://snulife.com/162244977" style="text-decoration:none; ">자주 접하는 영어 표현들</a>
+			                                                <a href="https://snulife.com/163222474" style="text-decoration:none; ">소개팅에서 머리카락으...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+761</td>
+            		<td style="color:#ccc; text-align:right;">+354</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				5			</span>
-			                                                <a href="https://snulife.com/161965066" style="text-decoration:none; ">쩝쩝거렸다고 까였네요...</a>
+			                                                <a href="https://snulife.com/163193303" style="text-decoration:none; ">[펌] 빡친 백종원.gif</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+708</td>
+            		<td style="color:#ccc; text-align:right;">+343</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				6			</span>
-			                                                <a href="https://snulife.com/161402712" style="text-decoration:none; ">변기수가 말하는 결혼...</a>
+			                                                <a href="https://snulife.com/163233336" style="text-decoration:none; ">미란다커 .jpg</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+655</td>
+            		<td style="color:#ccc; text-align:right;">+318</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				7			</span>
-			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
+			                                                <a href="https://snulife.com/163274088" style="text-decoration:none; ">자유한국당 찍을랍니다.</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+636</td>
+            		<td style="color:#ccc; text-align:right;">+283</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				8			</span>
-			                                                <a href="https://snulife.com/161413208" style="text-decoration:none; ">자살한 친오빠에 대한 ...</a>
+			                                                <a href="https://snulife.com/163210554" style="text-decoration:none; ">조국은 이제 학자가 아님</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+612</td>
+            		<td style="color:#ccc; text-align:right;">+282</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				9			</span>
-			                                                <a href="https://snulife.com/161786642" style="text-decoration:none; ">대기업에 입사한 대학...</a>
+			                                                <a href="https://snulife.com/163322147" style="text-decoration:none; ">국정운영 능력 최순실 ...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+590</td>
+            		<td style="color:#ccc; text-align:right;">+279</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				10			</span>
-			                                                <a href="https://snulife.com/162238922" style="text-decoration:none; ">핑클 서열 4위.jpg</a>
+			                                                <a href="https://snulife.com/163208916" style="text-decoration:none; ">문재인이가 정치력 하...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+555</td>
+            		<td style="color:#ccc; text-align:right;">+265</td>
                 </tr>
                 </tbody>
     </table>
@@ -1294,47 +1294,47 @@ jQuery(document).ready(function($) {
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배인의 인터뷰.gisa</a>
-                            <span class="replyNum" title="54 comment(s)"><a href="https://snulife.com/162567258#comment">[54]</a></span>
+			                                                <a href="https://snulife.com/163291495" style="text-decoration:none; ">대통령 담화 저만 충격 받은건가요?</a>
+                            <span class="replyNum" title="49 comment(s)"><a href="https://snulife.com/163291495#comment">[49]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+635</td>
+            		<td style="color:#ccc; text-align:right;">+389</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정고시 본 것을 꽤 많이 후회한다.</a>
-                            <span class="replyNum" title="100 comment(s)"><a href="https://snulife.com/162550874#comment">[100]</a></span>
+			                                                <a href="https://snulife.com/163305298" style="text-decoration:none; ">혼자 국밥 먹다 울컥</a>
+                            <span class="replyNum" title="31 comment(s)"><a href="https://snulife.com/163305298#comment">[31]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+543</td>
+            		<td style="color:#ccc; text-align:right;">+364</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘들에게 해주는 조언.jpg</a>
-                            <span class="replyNum" title="32 comment(s)"><a href="https://snulife.com/162579694#comment">[32]</a></span>
+			                                                <a href="https://snulife.com/163274088" style="text-decoration:none; ">자유한국당 찍을랍니다.</a>
+                            <span class="replyNum" title="58 comment(s)"><a href="https://snulife.com/163274088#comment">[58]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+321</td>
+            		<td style="color:#ccc; text-align:right;">+283</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162582949" style="text-decoration:none; ">한약계 쾌거~ 신기술 등장~</a>
-                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162582949#comment">[34]</a></span>
+			                                                <a href="https://snulife.com/163322147" style="text-decoration:none; ">국정운영 능력 최순실 VS 문재인</a>
+                            <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/163322147#comment">[23]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+230</td>
+            		<td style="color:#ccc; text-align:right;">+279</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162573450" style="text-decoration:none; ">아기를 낳아서 키워보고 느낀점들</a>
-                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162573450#comment">[34]</a></span>
+			                                                <a href="https://snulife.com/163302341" style="text-decoration:none; ">그냥 국운이 여기까지인듯.</a>
+                            <span class="replyNum" title="44 comment(s)"><a href="https://snulife.com/163302341#comment">[44]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+192</td>
+            		<td style="color:#ccc; text-align:right;">+244</td>
                 </tr>
                 </tbody>
     </table>
@@ -1346,47 +1346,47 @@ jQuery(document).ready(function($) {
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배인의 인터뷰.gisa</a>
-                            <span class="replyNum" title="54 comment(s)"><a href="https://snulife.com/162567258#comment">[54]</a></span>
+			                                                <a href="https://snulife.com/163322147" style="text-decoration:none; ">국정운영 능력 최순실 VS 문재인</a>
+                            <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/163322147#comment">[23]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+635</td>
+            		<td style="color:#ccc; text-align:right;">+279</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정고시 본 것을 꽤 많이 후회한다.</a>
-                            <span class="replyNum" title="100 comment(s)"><a href="https://snulife.com/162550874#comment">[100]</a></span>
+			                                                <a href="https://snulife.com/163302341" style="text-decoration:none; ">그냥 국운이 여기까지인듯.</a>
+                            <span class="replyNum" title="44 comment(s)"><a href="https://snulife.com/163302341#comment">[44]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+543</td>
+            		<td style="color:#ccc; text-align:right;">+244</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘들에게 해주는 조언.jpg</a>
-                            <span class="replyNum" title="32 comment(s)"><a href="https://snulife.com/162579694#comment">[32]</a></span>
+			                                                <a href="https://snulife.com/163271328" style="text-decoration:none; ">[펌] 창렬에 이은 신조어.jpg</a>
+                            <span class="replyNum" title="20 comment(s)"><a href="https://snulife.com/163271328#comment">[20]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+321</td>
+            		<td style="color:#ccc; text-align:right;">+218</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162582949" style="text-decoration:none; ">한약계 쾌거~ 신기술 등장~</a>
-                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162582949#comment">[34]</a></span>
-                                                    <span class="icon"></span>
-                    </td>
-            		<td style="color:#ccc; text-align:right;">+230</td>
-                </tr>
-                <tr>
-                <td class="title" style="">
-						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162592157" style="text-decoration:none; ">노르웨이산 고등어가 많은 이유    .jpg</a>
-                            <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/162592157#comment">[23]</a></span>
+			                                                <a href="https://snulife.com/163273315" style="text-decoration:none; ">박근혜도 알고 있던 것.jpg</a>
+                            <span class="replyNum" title="37 comment(s)"><a href="https://snulife.com/163273315#comment">[37]</a></span>
                                                     <span class="icon"></span>
                     </td>
             		<td style="color:#ccc; text-align:right;">+191</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/163319246" style="text-decoration:none; ">감비아 긴급 입장발표..jpg</a>
+                            <span class="replyNum" title="17 comment(s)"><a href="https://snulife.com/163319246#comment">[17]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+186</td>
                 </tr>
                 </tbody>
     </table>
@@ -1398,47 +1398,47 @@ jQuery(document).ready(function($) {
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162600477" style="text-decoration:none; ">헤어지고 며칠 뒤 다른 여자랑 있는걸 봤어요</a>
-                            <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/162600477#comment">[23]</a></span>
+			                                                <a href="https://snulife.com/163305298" style="text-decoration:none; ">혼자 국밥 먹다 울컥</a>
+                            <span class="replyNum" title="31 comment(s)"><a href="https://snulife.com/163305298#comment">[31]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+80</td>
+            		<td style="color:#ccc; text-align:right;">+364</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162602673" style="text-decoration:none; ">어리니까 봐준다.gif</a>
-                            <span class="replyNum" title="15 comment(s)"><a href="https://snulife.com/162602673#comment">[15]</a></span>
+			                                                <a href="https://snulife.com/163287865" style="text-decoration:none; ">회사 점심시간에 번호따시는 분들은</a>
+                            <span class="replyNum" title="22 comment(s)"><a href="https://snulife.com/163287865#comment">[22]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+61</td>
+            		<td style="color:#ccc; text-align:right;">+109</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162602455" style="text-decoration:none; ">댕댕이들 구출.gif</a>
-                            <span class="replyNum" title="5 comment(s)"><a href="https://snulife.com/162602455#comment">[5]</a></span>
+			                                                <a href="https://snulife.com/163272328" style="text-decoration:none; ">20대 후반 졸업생이 요즘 소개팅하면서 느낀점</a>
+                            <span class="replyNum" title="12 comment(s)"><a href="https://snulife.com/163272328#comment">[12]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+38</td>
+            		<td style="color:#ccc; text-align:right;">+84</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162600341" style="text-decoration:none; ">30대 여자 셀소를 수줍게 올려 보아요</a>
-                            <span class="replyNum" title="13 comment(s)"><a href="https://snulife.com/162600341#comment">[13]</a></span>
+			                                                <a href="https://snulife.com/163309360" style="text-decoration:none; ">울학교+전문직만해도 스펙 상위1% 넘어감.</a>
+                            <span class="replyNum" title="33 comment(s)"><a href="https://snulife.com/163309360#comment">[33]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+26</td>
+            		<td style="color:#ccc; text-align:right;">+76</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162596254" style="text-decoration:none; ">애인의 정치 성향?</a>
-                            <span class="replyNum" title="14 comment(s)"><a href="https://snulife.com/162596254#comment">[14]</a></span>
+			                                                <a href="https://snulife.com/163273571" style="text-decoration:none; ">여자들은 맘에 안든다 한마디도 못하나요?</a>
+                            <span class="replyNum" title="20 comment(s)"><a href="https://snulife.com/163273571#comment">[20]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+24</td>
+            		<td style="color:#ccc; text-align:right;">+57</td>
                 </tr>
                 </tbody>
     </table>
@@ -1450,47 +1450,47 @@ jQuery(document).ready(function($) {
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162573450" style="text-decoration:none; ">아기를 낳아서 키워보고 느낀점들</a>
-                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162573450#comment">[34]</a></span>
+			                                                <a href="https://snulife.com/163319360" style="text-decoration:none; ">다들행복하신가요(feat.빚쟁이)</a>
+                            <span class="replyNum" title="9 comment(s)"><a href="https://snulife.com/163319360#comment">[9]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+192</td>
+            		<td style="color:#ccc; text-align:right;">+132</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162592630" style="text-decoration:none; ">공항에서 일하다보면...</a>
-                            <span class="replyNum" title="25 comment(s)"><a href="https://snulife.com/162592630#comment">[25]</a></span>
+			                                                <a href="https://snulife.com/163295945" style="text-decoration:none; ">원래 이리도 힘든가요?</a>
+                            <span class="replyNum" title="9 comment(s)"><a href="https://snulife.com/163295945#comment">[9]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+156</td>
+            		<td style="color:#ccc; text-align:right;">+79</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162608196" style="text-decoration:none; ">시댁 연락&amp;부양문제</a>
-                            <span class="replyNum" title="19 comment(s)"><a href="https://snulife.com/162608196#comment">[19]</a></span>
+			                                                <a href="https://snulife.com/163330052" style="text-decoration:none; ">남편이 방콕 성매매 마사지 받고 온 것 같은데 남자분...</a>
+                            <span class="replyNum" title="19 comment(s)"><a href="https://snulife.com/163330052#comment">[19]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+93</td>
+            		<td style="color:#ccc; text-align:right;">+46</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162557755" style="text-decoration:none; ">아래 에어팟 끼고 있는 남편 관련</a>
-                            <span class="replyNum" title="27 comment(s)"><a href="https://snulife.com/162557755#comment">[27]</a></span>
+			                                                <a href="https://snulife.com/163309899" style="text-decoration:none; ">완벽히 행복한 퇴근길</a>
+                            <span class="replyNum" title="2 comment(s)"><a href="https://snulife.com/163309899#comment">[2]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+63</td>
+            		<td style="color:#ccc; text-align:right;">+42</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
-			                                                <a href="https://snulife.com/162574618" style="text-decoration:none; ">아이 학군 때문에 고민입니다.</a>
-                            <span class="replyNum" title="25 comment(s)"><a href="https://snulife.com/162574618#comment">[25]</a></span>
+			                                                <a href="https://snulife.com/163311402" style="text-decoration:none; ">안녕하세요. 맞벌이 육아 중 입니다.</a>
+                            <span class="replyNum" title="16 comment(s)"><a href="https://snulife.com/163311402#comment">[16]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+53</td>
+            		<td style="color:#ccc; text-align:right;">+38</td>
                 </tr>
                 </tbody>
     </table>
@@ -1583,7 +1583,7 @@ jQuery(document).ready(function($) {
                 <li>
                             											<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif" style="vertical-align:text-top;"> 
                     					                                        <a href="https://snulife.com/156933424" class="title">간담회 후속 조치 안내 - 누적신고...</a>
-                                            <span class="replyNum" title="7 comment(s)"><a href="https://snulife.com/156933424#comment" style="color:#ff1a1a;">[7]</a></span>
+                                            <span class="replyNum" title="8 comment(s)"><a href="https://snulife.com/156933424#comment" style="color:#ff1a1a;">[8]</a></span>
                                                                                     <span class="icon"></span>
                                                         </li>
                 <li>
@@ -1608,13 +1608,13 @@ jQuery(document).ready(function($) {
                 <ul class="widgetGalleryA" style="width:272px; ">
         <li style="width:122px; float:left; ">
                                     <a href="https://snulife.com/column_normal" class="thumb" style="width:120px;height:75px; border:1px solid #ccc;">
-                                            <img src="https://snulife.com/files/cache/thumbnails/491/520/158/120x75.crop.jpg" style="width:120px;height:75px"/>
+                                            <img src="https://snulife.com/files/cache/thumbnails/674/686/162/120x75.crop.jpg" style="width:120px;height:75px"/>
                     				                                </a>
                             				<p style="margin:0px; padding:0px; text-align:center;">
 										<a><strong class="board">자유칼럼</strong></a>
 									</p>
 				<p style="margin:1px 0px 0px 0px;  text-align:center;">
-                <a href="https://snulife.com/column_normal" class="title">기억이 잘못된 이야기</a>
+                <a href="https://snulife.com/column_normal" class="title">인간의 파멸</a>
                                                                     <span class="icon"></span>
                 				</p>
                 </li>
@@ -1702,5 +1702,5 @@ jQuery(function($){
 
 </script><!-- ETC -->
 	<div class="wfsr"></div>
-	<script type="text/javascript" src="/addons/autolink/autolink.js?20130817100143"></script>	<script type="text/javascript" src="/common/js/plugins/ui/jquery-ui.min.js?20140726100840"></script>	<script type="text/javascript" src="/common/js/plugins/ui/jquery.ui.datepicker-ko.js?20140726100840"></script>	<script type="text/javascript" src="/addons/resize_image/js/resize_image.min.js?20130831221229"></script>	<script type="text/javascript" src="/files/cache/js_filter_compiled/f91f279b48322ebcb4f2121e83184d39.ko.compiled.js?20190411211203"></script>	<script type="text/javascript" src="/files/cache/js_filter_compiled/072803a0ced881c8de6c54f4a6d81b39.ko.compiled.js?20190411211203"></script></body>
+	<script type="text/javascript" src="/addons/autolink/autolink.js?20130817100143"></script>	<script type="text/javascript" src="/common/js/plugins/ui/jquery-ui.min.js?20140726100840"></script>	<script type="text/javascript" src="/common/js/plugins/ui/jquery.ui.datepicker-ko.js?20140726100840"></script>	<script type="text/javascript" src="/addons/resize_image/js/resize_image.min.js?20130831221229"></script>	<script type="text/javascript" src="/files/cache/js_filter_compiled/f91f279b48322ebcb4f2121e83184d39.ko.compiled.js?20190728015250"></script>	<script type="text/javascript" src="/files/cache/js_filter_compiled/072803a0ced881c8de6c54f4a6d81b39.ko.compiled.js?20190728015250"></script></body>
 </html>

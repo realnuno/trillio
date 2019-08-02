@@ -32,24 +32,24 @@ body { }
 div.xe_mobile{ float:left; width:100%;}  /* 모바일에 최적화 된 화면으로 보기 div 문제 해결 위해서 */
 </style>
 <style type="text/css">
-#nivoslider_Nivoslider_1934056186 {
+#nivoslider_Nivoslider_1313454641 {
     width:972px;
     height:188px;
     margin:0 auto;
 }
-#Nivoslider_1934056186 {
+#Nivoslider_1313454641 {
 	position:relative;
     width:972px;
     height:164px;
 	border: 0px solid #ccc;
 }
-#Nivoslider_1934056186 img {
+#Nivoslider_1313454641 img {
 	position:absolute;
 	top:0px;
 	left:0px;
 	display:none;
 }
-#Nivoslider_1934056186 a {
+#Nivoslider_1313454641 a {
 	border:0;
 	display:block;
 }
@@ -161,28 +161,28 @@ a.nivo-nextNav {
 a.nivo-prevNav {
 	left:15px;
 }
-#Nivoslider_1934056186 .lightbox_image {
+#Nivoslider_1313454641 .lightbox_image {
 	width:972px;
 	height:164px;
 	float:left;
 	display:block;
 	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/magnify.png') no-repeat center center;
 }
-#Nivoslider_1934056186 .lightbox_video {
+#Nivoslider_1313454641 .lightbox_video {
 	width:972px;
 	height:164px;
 	float:left;
 	display:block;
 	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/video.png') no-repeat center center;
 }
-#Nivoslider_1934056186 .no_image {
+#Nivoslider_1313454641 .no_image {
 	width:972px;
 	height:164px;
 	float:left;
 	display:block;
 	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/no_image.png') no-repeat center center;
 }
-#Nivoslider_1934056186 .open_doc {
+#Nivoslider_1313454641 .open_doc {
 	width:972px;
 	height:164px;
 	float:left;
@@ -892,8 +892,8 @@ var menu_width = '975';
 </script>
 <![endif]-->
 
-<div id="nivoslider_Nivoslider_1934056186">
-<div id="Nivoslider_1934056186" class="nivoSlider">
+<div id="nivoslider_Nivoslider_1313454641">
+<div id="Nivoslider_1313454641" class="nivoSlider">
 								<!-- sejin7940 수정 (120212) - 확장변수 이용한 링크 설정시 제대로 안 되던 버그 수정 -->
 											<a href="https://snulife.com/index.php?mid=notice&document_srl=141964163"   /> 
 										
@@ -908,7 +908,7 @@ var menu_width = '975';
 </div>
 <script> 
 jQuery(document).ready(function($) {
-	$('#Nivoslider_1934056186').nivoSlider({
+	$('#Nivoslider_1313454641').nivoSlider({
 		effect:'fade', //Specify sets like: 'fold,fade,sliceDown'
 		slices:20,
 		animSpeed:500, //Slide transition speed
@@ -931,7 +931,7 @@ jQuery(document).ready(function($) {
 		lastSlide: function(){}, //Triggers when last slide is shown
 		afterLoad: function(){} //Triggers when slider has loaded
 	});
-	$("#Nivoslider_1934056186").find("a[rel^='prettyPhoto']:not(.nivo-prevNav,.nivo-nextNav,.nivo-control)").prettyPhoto({theme:'pp_default'});
+	$("#Nivoslider_1313454641").find("a[rel^='prettyPhoto']:not(.nivo-prevNav,.nivo-nextNav,.nivo-control)").prettyPhoto({theme:'pp_default'});
 });
 </script> 
 </div></div>
@@ -960,7 +960,7 @@ jQuery(document).ready(function($) {
 				1			</span>
 			                                                <a href="https://snulife.com/162612780" style="text-decoration:none; ">근데 우리학교 선배님...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+15</td>
+            		<td style="color:#ccc; text-align:right;">+17</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
@@ -968,7 +968,7 @@ jQuery(document).ready(function($) {
 				2			</span>
 			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+8</td>
+            		<td style="color:#ccc; text-align:right;">+9</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
@@ -976,7 +976,7 @@ jQuery(document).ready(function($) {
 				3			</span>
 			                                                <a href="https://snulife.com/162609474" style="text-decoration:none; ">아파트 구매 후기입니다.</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+7</td>
+            		<td style="color:#ccc; text-align:right;">+8</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
@@ -1022,7 +1022,7 @@ jQuery(document).ready(function($) {
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				9			</span>
-			                                                <a href="https://snulife.com/162594706" style="text-decoration:none; ">1일 5사나 41일차</a>
+			                                                <a href="https://snulife.com/162592157" style="text-decoration:none; ">노르웨이산 고등어가 ...</a>
                                             </td>
             		<td style="color:#ccc; text-align:right;">+4</td>
                 </tr>
@@ -1030,9 +1030,9 @@ jQuery(document).ready(function($) {
                 <td class="title" style="">
 						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
 				10			</span>
-			                                                <a href="https://snulife.com/162617262" style="text-decoration:none; ">애플 ceo vs 삼전 ceo ...</a>
+			                                                <a href="https://snulife.com/162594706" style="text-decoration:none; ">1일 5사나 41일차</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+3</td>
+            		<td style="color:#ccc; text-align:right;">+4</td>
                 </tr>
                 </tbody>
     </table>
@@ -1047,7 +1047,7 @@ jQuery(document).ready(function($) {
 				1			</span>
 			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+635</td>
+            		<td style="color:#ccc; text-align:right;">+636</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
@@ -1182,7 +1182,7 @@ jQuery(document).ready(function($) {
 				7			</span>
 			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
                                             </td>
-            		<td style="color:#ccc; text-align:right;">+635</td>
+            		<td style="color:#ccc; text-align:right;">+636</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
@@ -1298,13 +1298,13 @@ jQuery(document).ready(function($) {
                             <span class="replyNum" title="54 comment(s)"><a href="https://snulife.com/162567258#comment">[54]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+634</td>
+            		<td style="color:#ccc; text-align:right;">+635</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
 			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정고시 본 것을 꽤 많이 후회한다.</a>
-                            <span class="replyNum" title="99 comment(s)"><a href="https://snulife.com/162550874#comment">[99]</a></span>
+                            <span class="replyNum" title="100 comment(s)"><a href="https://snulife.com/162550874#comment">[100]</a></span>
                                                     <span class="icon"></span>
                     </td>
             		<td style="color:#ccc; text-align:right;">+543</td>
@@ -1350,13 +1350,13 @@ jQuery(document).ready(function($) {
                             <span class="replyNum" title="54 comment(s)"><a href="https://snulife.com/162567258#comment">[54]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+634</td>
+            		<td style="color:#ccc; text-align:right;">+635</td>
                 </tr>
                 <tr>
                 <td class="title" style="">
 						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
 			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정고시 본 것을 꽤 많이 후회한다.</a>
-                            <span class="replyNum" title="99 comment(s)"><a href="https://snulife.com/162550874#comment">[99]</a></span>
+                            <span class="replyNum" title="100 comment(s)"><a href="https://snulife.com/162550874#comment">[100]</a></span>
                                                     <span class="icon"></span>
                     </td>
             		<td style="color:#ccc; text-align:right;">+543</td>
@@ -1386,7 +1386,7 @@ jQuery(document).ready(function($) {
                             <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/162592157#comment">[23]</a></span>
                                                     <span class="icon"></span>
                     </td>
-            		<td style="color:#ccc; text-align:right;">+190</td>
+            		<td style="color:#ccc; text-align:right;">+191</td>
                 </tr>
                 </tbody>
     </table>

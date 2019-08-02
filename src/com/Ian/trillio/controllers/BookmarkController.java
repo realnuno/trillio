@@ -1,5 +1,6 @@
 package com.Ian.trillio.controllers;
 
+import com.Ian.trillio.constants.KidsFriendlyStatus;
 import com.Ian.trillio.entities.Bookmark;
 import com.Ian.trillio.entities.User;
 import com.Ian.trillio.managers.BookmarkManager;
@@ -17,7 +18,7 @@ public class BookmarkController {
         BookmarkManager.getInstance().saveUserBookmark(user, bookmark);
     }
 
-    public void setKidFriendlyStatus(User user, String kidFriendlyStatus, Bookmark bookmark) {
+    public void setKidFriendlyStatus(User user, KidsFriendlyStatus kidFriendlyStatus, Bookmark bookmark) {
         BookmarkManager.getInstance().setKidFriendlyStatus(user, kidFriendlyStatus, bookmark);
     }
     public void share(User user, Bookmark bookmark) {

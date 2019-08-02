@@ -1,0 +1,1706 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- META -->
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />	<meta name="Generator" content="XpressEngine" />
+<!-- TITLE -->
+	<title>SNULife</title>
+<!-- CSS -->
+	<script src="/cdn-cgi/apps/head/msDHNGGGWC_DHSFRetMuOF7ltMU.js"></script><link rel="stylesheet" href="/common/js/plugins/ui/jquery-ui.min.css?20140726100840" type="text/css" media="all" />
+	<link rel="stylesheet" href="/common/css/xe.min.css?20140801141423" type="text/css" media="all" />
+	<link rel="stylesheet" href="/layouts/new_snulife/css/bar2.css?20190124232359" type="text/css" media="all" />
+	<link rel="stylesheet" href="/modules/editor/styles/default/style.css?20161222012421" type="text/css" media="all" />
+	<link rel="stylesheet" href="/widgets/login_info/skins/sejin7940_login_sero/css/default.css?20150812112912" type="text/css" media="all" />
+	<link rel="stylesheet" href="/widgets/contentslider/skins/prettyPhoto/prettyPhoto.css?20130817151429" type="text/css" media="all" />
+	<link rel="stylesheet" href="/widgets/contentextended/skins/snulife/css/widget.css?20171202153726" type="text/css" media="all" />
+<!-- JS -->
+	<script type="text/javascript" src="/common/js/jquery.min.js?20170318213014"></script>
+	<script type="text/javascript" src="/common/js/x.min.js?20130818191203"></script>
+	<script type="text/javascript" src="/common/js/xe.min.js?20161206235235"></script>
+	<script type="text/javascript" src="/layouts/new_snulife/js/sejin7940_layout.js?20190124232359"></script>
+	<script type="text/javascript" src="/widgets/login_info/skins/sejin7940_login_sero/js/login.js?20130825012255"></script>
+	<script type="text/javascript" src="/widgets/contentslider/skins/Nivo-slider/js/jquery.nivo.slider.js?20130817151453"></script>
+	<script type="text/javascript" src="/widgets/contentslider/skins/prettyPhoto/jquery.prettyPhoto.js?20130817151428"></script>
+	<script type="text/javascript" src="/widgets/contentextended/skins/snulife/js/content_widget.js?20130825011642"></script>
+	<!-- RSS -->
+		<!-- ICON -->
+	<link rel="shortcut icon" href="files/attach/xeicon/favicon.ico" />	<link rel="apple-touch-icon" href="files/attach/xeicon/mobicon.png" />
+
+<style type="text/css"> .xe_content { font-size:14px; }</style>
+<style>
+body { }
+div.xe_mobile{ float:left; width:100%;}  /* 모바일에 최적화 된 화면으로 보기 div 문제 해결 위해서 */
+</style>
+<style type="text/css">
+#nivoslider_Nivoslider_192921109 {
+    width:972px;
+    height:188px;
+    margin:0 auto;
+}
+#Nivoslider_192921109 {
+	position:relative;
+    width:972px;
+    height:164px;
+	border: 0px solid #ccc;
+}
+#Nivoslider_192921109 img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#Nivoslider_192921109 a {
+	border:0;
+	display:block;
+}
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/loading.gif') no-repeat 50% 50%;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+		background:transparent;   /* sejin7940 수정 (120212) - 제목과 내용 모두 선택 안 한 경우 흰배경이 아예 안 나오게 */
+		color:;
+	opacity:1; /* Overridden by captionOpacity setting  -  원래 : 0.4 */
+	width:100%;
+	z-index:89;
+    text-shadow:none;
+    font-family: 돋움,Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+.nivo-caption a { 
+ 	display:inline !important;
+	color:;
+    text-decoration:underline;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position:absolute;
+		left:50%; margin-left:-50px;			bottom:0px;  /* sejin7940 수정 (120212) - 하단 네비게이션을 이미지 위에 배치 */
+	}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	text-indent:-9999px;
+	border:0;
+	margin-right:0px;
+	float:left;
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/bullets_blue.png') no-repeat;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+	font-weight:bold;
+}
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	/*
+	height:30px;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/arrows.png') no-repeat;
+	*/
+	height:40px;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/arrows_blue.png') no-repeat;
+	text-indent:-9999px;
+	border:0;
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+#Nivoslider_192921109 .lightbox_image {
+	width:972px;
+	height:164px;
+	float:left;
+	display:block;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/magnify.png') no-repeat center center;
+}
+#Nivoslider_192921109 .lightbox_video {
+	width:972px;
+	height:164px;
+	float:left;
+	display:block;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/video.png') no-repeat center center;
+}
+#Nivoslider_192921109 .no_image {
+	width:972px;
+	height:164px;
+	float:left;
+	display:block;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/no_image.png') no-repeat center center;
+}
+#Nivoslider_192921109 .open_doc {
+	width:972px;
+	height:164px;
+	float:left;
+	display:block;
+	background:url('https://snulife.com/widgets/contentslider/skins/Nivo-slider/images/document.png') no-repeat center center;
+}
+</style></head>
+<body>
+	<script type="text/javascript">
+	//<![CDATA[
+	var current_url = "https://snulife.com/?";
+	var request_uri = "https://snulife.com/";
+var current_mid = "main";
+var waiting_message = "서버에 요청 중입니다. 잠시만 기다려주세요.";
+var ssl_actions = new Array();
+var default_url = "https://snulife.com/";
+var http_port = 80;var https_port = 443;	xe.current_lang = "ko";
+	//]]>
+	</script>
+		<!-- 공백 레이아웃 형태로 임시로 사용하고픈 경우,  $use_layout='N' 를 전달하면 됨 -->
+
+<!-- Langulage -->
+<!-- 설정값 없는 경우 초기값 -->
+<!-- Browser Type (sejin7940) -->
+<!-- 하나의 레이아웃에 메인디자인과 서브디자인을 분리기능 -->
+<!-- 설정에 따라 가로 길이 조절되게 하는 설정들 -->
+	
+		
+			<!-- 실제 내용부분 가로길이 - content_width -->
+																					<!-- CSS -->
+<!-- 모듈 설정 -->
+<script>
+var domain = 'https://snulife.com/';
+var layout = 'new_snulife';
+var browser = '';
+var menu_width = '975';
+</script>
+<div id="wrapper"> <!-- style="background:transparent url('layouts/new_snulife/images/default/bgheader.jpg') no-repeat center 10px; "-->
+	<!-- 홈페이지 부분 시작 -->
+	<div id="bodyWrap" style="width:975px; ">
+				<!-- 상단부분 시작 -->
+		<div id="header" style="position:relative; width:975px;  ">
+			<div id="header_top">
+				<!-- 로고 -->
+				
+				<div id="logo">
+					<a href="/">
+						<img src="https://snulife.com/files/attach/images/151232047/b933ba686c9cfc51deab5b2bfdacd240.png" width="240px" alt="logo" border="0" class="iePngFix" />					</a>
+				</div>
+				
+				<div id="gp">
+					<a href="https://snulife.com/class">
+						<!-- <img src="https://snulife.com/files/attach/images/151232047/b933ba686c9cfc51deab5b2bfdacd240.png" width="155px" alt="logo" border="0" class="iePngFix" /> -->
+						<img src="/layouts/new_snulife/images/gp.png" alt="강의실+">
+					</a>
+				</div>
+				<!-- Language -->
+								<!-- inLogin Account -->
+							<div id="header_middle">
+				<!-- 상단메뉴 - GNB -->
+				<div id="div_menu" style="width:975px; margin-left:px;">
+					<!-- 서브메인인지 판단하기 위해 -->
+										<div id="headerMenu" class="menu">
+		<ul class="main_menu">
+						<li 
+			>
+								<a class="first_a png_bg" href="/all" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												커뮤니티																<!--커뮤니티--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/guide" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												캠퍼스+																<!--캠퍼스+--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/student" 
+						onclick="location.href=this.href">
+					<span class="png_bg">																						<!--빈칸--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/graduate" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												라이프+																<!--라이프+--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/career" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												진로취업																<!--진로취업--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/living" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												생활정보																<!--생활정보--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/columnwebtoon" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												콘텐츠																<!--콘텐츠--></span></a>
+				 
+											</li>						<li 
+			>
+								<a class="first_a png_bg" href="/notice" 
+						onclick="location.href=this.href">
+					<span class="png_bg">												안내센터																<!--안내센터--></span></a>
+				 
+											</li>														</ul>
+	</div>
+	
+	
+				</div>
+				
+				<!-- IS 통합검색 -->
+				<div id="IS" >
+					<form action="https://snulife.com/" method="post" class="search" style="padding-top:0px; padding-bottom:0px;"><input type="hidden" name="error_return_url" value="/index.php?m=0" />
+						<input type="hidden" name="vid" value="" />
+						<input type="hidden" name="mid" value="main" />
+						<input type="hidden" name="act" value="IS" />
+						<input type="hidden" name="search_target" value="title_content" />
+						<input name="is_keyword" type="text" title="Search" class="inputText" accesskey="S" style="float:left; "/>
+												<img src="/layouts/new_snulife/images/search_button.svg" width="14" onclick="alert('통합검색 이용권한이 없습니다');" style="float:right; margin-top:6px; margin-right:5px; padding-right:1px"/>
+											</form>
+					<div style="float:left; clear:left; width:975px; text-align:center; ">
+						
+					</div>
+				</div>			</div>
+				<!-- Sitemap Menu -->
+				<div id="sitemapDiv" style="width:973px; margin-left:px; margin-top:95px;">
+					<!-- <div style="position:absolute; left:-50px; top:-60px; height:115%; width:50px; border:0px solid red;  display:block;" class="sitemenuOut"><img src="/layouts/new_snulife/images/t.gif" width="100%" height="100%"></div> -->
+					<div id="sitemapWrap" style="display:block" >
+						<div id="sitemapWrapContent">
+							<div style="float:left; width:99%;">
+								<!--<div style="float:left; padding:0px; margin:0px;"><img src="/layouts/new_snulife/images/bar2/bg_menu_top.gif" style="position:absolute; top:0px; left:0px;"></div>-->
+																		
+																								<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/all"  onfocus="this.blur();" >
+												전체게시물																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/best"  onfocus="this.blur();" >
+												베스트게시물																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/gongsage"  onfocus="this.blur();" >
+												자유게시판																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/love"  onfocus="this.blur();" >
+												샤랑방																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/snuplaza"  onfocus="this.blur();" >
+												서울대광장																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/snukin"  onfocus="this.blur();" >
+												스누지식인																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/campusbest"  onfocus="this.blur();" >
+												캠퍼스베스트																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/student"  onfocus="this.blur();" >
+												과방+																						<span style="padding-left:1px"> <img width="12" src="/layouts/new_snulife/images/new.svg"/>
+											</span>
+																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/postgraduate"  onfocus="this.blur();" >
+												연구실+																						<span style="padding-left:1px"> <img width="12" src="/layouts/new_snulife/images/new.svg"/>
+											</span>
+																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/lecture_community"  onfocus="this.blur();" >
+												강의게시판																						<span style="padding-left:1px"> <img width="12" src="/layouts/new_snulife/images/new.svg"/>
+											</span>
+																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/advertise"  onfocus="this.blur();" >
+												동아리/행사																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/global"  onfocus="this.blur();" >
+												Global Lounge																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																								<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/guide"  onfocus="this.blur();" >
+												새내기안내서																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/major_board"  onfocus="this.blur();" >
+												학과정보																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/news_all"  onfocus="this.blur();" >
+												학내언론																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/lostfound"  onfocus="this.blur();" >
+												분실물찾기																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/gourmet"  onfocus="this.blur();" >
+												골먹대장																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/delivery"  onfocus="this.blur();" >
+												배달음식점																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/graduate"  onfocus="this.blur();" >
+												졸업생라운지																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/cuisine"  onfocus="this.blur();" >
+												맛집																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/invest"  onfocus="this.blur();" >
+												재테크																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/gradschool"  onfocus="this.blur();" >
+												전문대학원																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/examination"  onfocus="this.blur();" >
+												고시게시판																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/career_board"  onfocus="this.blur();" >
+												취업게시판																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/abroad"  onfocus="this.blur();" >
+												유학게시판																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/foundation"  onfocus="this.blur();" >
+												창업게시판																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/study"  onfocus="this.blur();" >
+												스터디게시판																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/market"  onfocus="this.blur();" >
+												벼룩시장																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/event"  onfocus="this.blur();" >
+												제휴/이벤트																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/housing"  onfocus="this.blur();" >
+												스누복덕방																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/book"  onfocus="this.blur();" >
+												교재4989																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/lesson"  onfocus="this.blur();" >
+												과외구하기																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/partjob"  onfocus="this.blur();" >
+												구인게시판																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/column_series"  onfocus="this.blur();" >
+												연재칼럼																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/column_normal"  onfocus="this.blur();" >
+												자유칼럼																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/webtoon"  onfocus="this.blur();" >
+												연재웹툰																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/webtoon_normal"  onfocus="this.blur();" >
+												자유웹툰																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/gallery"  onfocus="this.blur();" >
+												샤진첩																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/literature_normal"  onfocus="this.blur();" >
+												문학게시판																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/notice"  onfocus="this.blur();" >
+												공지사항																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/faq"  onfocus="this.blur();" >
+												자주묻는질문																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/qna"  onfocus="this.blur();" >
+												1:1 문의																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/propose"  onfocus="this.blur();" >
+												공개건의																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/objection"  onfocus="this.blur();" >
+												공개이의제기																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/pre_objection"  onfocus="this.blur();" >
+												비공개이의제기																					</a>
+										</li>  
+																	</ul>
+								
+																		
+																<span class="sitemenu_sub_divider">
+									</span>
+																	<ul class="sitemap">
+									   
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/sandoll"  onfocus="this.blur();" >
+												산돌구름이용권																					</a>
+										</li>  
+																			 																				<li class="sitemenu_sub"><a  onfocus="blur()" href="/snack_event"  onfocus="this.blur();" >
+												야식이벤트																					</a>
+										</li>  
+																	</ul>
+								
+															</div>
+						</div>
+					</div>
+					<!-- <div style="bottom:10px; height:50px; width:100%; border:0px solid red; display:block;" class="sitemenuOut"><img src="/layouts/new_snulife/images/t.gif" width="100%" height="100%"></div> -->
+					<!-- <div style="position:absolute; right:-50px; top:-60px; height:115%; width:50px; border:0px solid red;  display:block;" class="sitemenuOut"><img src="/layouts/new_snulife/images/t.gif" width="100%" height="100%"></div> -->
+				</div>
+			</div> <!-- header_top (끝) -->
+					</div>
+		<!-- 상단부분   끝 -->
+		<!-- 중앙부분  시작 -->		
+		<div id="contentBody" style="width:975px; padding-right:px; padding-left:px;  float:left;  padding-bottom:0px;">
+			<!-- 사이드 영역 - LNB (시작) -->
+			<div id="sub_lnb" style="width:0px; float:right; padding-left:0px;; display:none;">
+								
+				  
+				<!-- 사이드 배너 -->
+				<div style="float:left; width:100%; border:0px solid #ccc; padding:0px; margin-top:30px;">				
+				
+				</div>
+											</div>
+			<!-- 사이드 영역 - LNB (끝) -->
+						<!-- 3단 영역  -->
+						
+				
+			<!-- 중앙 본문 내용 영역 (시작) -->
+			<div id="sub_content" style="width:975px; float:right;  padding-bottom:0px;">
+								
+												
+				<!-- Tab메뉴 -->
+								
+				<!-- 컨텐츠 시작 -->
+									<div id="content">
+						<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function () {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = 'https://www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+</script>
+<script type='text/javascript'>
+	googletag.cmd.push(function () {
+		googletag.defineSlot('/147886618/pc_main_center', [450, 120], 'div-gpt-ad-1461987705241-0').addService(googletag.pubads());
+		googletag.defineSlot('/147886618/pc_main_left', [230, 120], 'div-gpt-ad-1461987705241-1').addService(googletag.pubads());
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+	});
+</script>
+<script type='text/javascript'>
+	var lecture_evaluations = [
+		{
+			"title": "서양철학의 이해",
+			"lecturer": "현영종",
+			"point": 10,
+			"content": "교수님이 상당히 친절하시고 학생들 이름을 거의 외우시는것 같고 질문을 하면 그에 대한 답변도 자세히 하려고 노력하시는 것 같습니다.교수님 사랑합니다ㅠㅠ"
+		},
+		{
+			"title": "라틴아메리카 문학과 사회",
+			"lecturer": "김용호",
+			"point": 9.1,
+			"content": "제가 대학에 왔음을 느끼게 해준 수업입니다. 교수님은 '죽은 시인의 사회'의 키팅 선생님과 같은 자유롭고 멋있는 분위기의 소유자이십니다. 교수님께서 정말정말 감탄할 정도로 많이 알고 계심에도 불구하고 본인의 생각을 학생들에게 주입하시지 않고 학생들의 생각을 존중해 주십니다. 또 학생들에게 부담을 일절 주지 않으십니다."
+		},
+		{
+			"title": "컴퓨터조직론",
+			"lecturer": "김장우",
+			"point": 10,
+			"content": "전기과 전공 중에 탑급으로 빡쌥니다.오라클에서 CPU 아키텍처 설계하던 분이어서 그런지 이쪽 지식은 엄청나신 것 같습니다.CPU 관련해서는 6~70년대 기술인 파이프라인부터 현재 I-7칩에 적용된 하이퍼스레딩과"
+		},
+		{
+			"title": "중국어권의 사회와 문화",
+			"lecturer": "박지현",
+			"point": 9.8,
+			"content": "학교 처음 입학하고 처음이자 유일한 교양수업이었습니다! 사실 로드는 좀 많은 편이긴한데, 정치 경제 역사 같은건 하나도 모르는 저같은 이과생도 과제는 다 할수 잇는 정도의 난이도라서 괜찮았던 것 같습니다. 중간 기말때 책 한두 챕터 읽고 논술 문제를 푸는 문제가 나오는데"
+		},
+		{
+			"title": "죽음의 과학적 이해",
+			"lecturer": "유성호",
+			"point": 9.2,
+			"content": "졸업 전에 들어서 다행이네요 ㅜㅜㅜ 진짜 매 시간 '그것이 알고싶다' 한편 보는것 같이 재밌었어요 ㅋㅋㅋㅋㅋ 교수님께서 썰을 진짜 잘 풀어주시고 초빙교수님들도 재밌으세요 ㅋㅋㅋㅋ 생각했던 것보다는 시험이 종합적으로 나왔다해야하나?? 약간 난이도 있게나와서 당황은했네요 (코난처럼 사건 하나 주고 과학적으로 재구성하라는 문제도 있었네요 ㅋㅋ)"
+		},
+		{
+			"title": "통계학",
+			"lecturer": "정상아",
+			"point": 9,
+			"content": "강의력은 진짜 대학와서 최고네요. 인강 강사님같은 느낌이고 처음 통계학 접해도 수월하게 따라가게끔 잘 설명해주십니다. 학점도 완전 쁠몰에 교수님 강의 4개 반을 하시는데 그중에서 우월한 반이다 싶으면 해당 반은 A 비율을 더 높게 해주시기까지... 최고입니다"
+		},
+		{
+			"title": "한국현대사의 이해",
+			"lecturer": "김수향",
+			"point": 9,
+			"content": "말씀도 잘하셔서 하나도 안 지루하고 학점 정말 잘주십니다 갓수향..❤굉장히 관대하신것같습니다! 평소에 질문도 잘받아주시고 학생들에게 친절하게 대해주셔서 수업 분위기도 좋습니다! 역사에 관심많으신 분들은 꼭 한번 들어보세요!!"
+		},
+		{
+			"title": "한국의 문화유산",
+			"lecturer": "김신회",
+			"point": 9.9,
+			"content": "1. 강의력수업 준비를 열심히 해오시고,  학생들을 위해서 많은 것을 가르쳐주려고 하시는 게 느껴졌어요. 하지만 말씀을 청산유수처럼 하시는 편은 아니었습니다. 너~~무 큰 기대를 하시면 실망하실 수도 있어요. 앞에 분이 써주셨듯이 미시사, 당대를 살았던 사람들의 의식을 다루기 때문에 나름 흥미로웠습니다."
+		},
+		{
+			"title": "핀란드어 1",
+			"lecturer": "정도상",
+			"point": 9.9,
+			"content": "수업시간에 어려웠던 내용도 랩시간에 원어민선생님과 하다보면 많이 익힐 수 있다. 또한.. 공부한 것에 비해 기말 시험을 못쳤는데도 불구하고 학점을 너무 잘주셨다.. (상대평가인데) 어렵지만 보람있고 정말 외국어 과목 중에 들을만하다!"
+		},
+		{
+			"title": "한글맞춤법의 이론과 실제",
+			"lecturer": "문숙영",
+			"point": 9.9,
+			"content": "봄학기 수강자입니다. 정말 추천합니다.일단 들으세요 ㅎㅎ"
+		},
+		{
+			"title": "한국의 문화유산",
+			"lecturer": "최상기",
+			"point": 9.1,
+			"content": "강의력 꽤나 좋으십니다. 중간중간에 영상도 보여주시는데 이해하는데 꽤 도움이 됩니다 평가는 출석 중간대체 레포트 기말로 이루어지는데 답사때 발표하면 가산점을 줍니다. 그리고 답사를가면 간식을 챙겨주시고 끝나고 밥을 사주십니다. 중간중간에 학생들 챙겨주시는걸 보면 나이스한 분인걸 알 수 있어요"
+		},
+		{
+			"title": "물리학",
+			"lecturer": "문송기",
+			"point": 9.2,
+			"content": "다른 물리학과 교수님의 강의를 듣고 뒤늦게 문송기 교수님은 정말 강의를 잘하신다는 것을 깨달았다. 돌이켜보면 정말 모범적인 교수님이셨다. 성적은 한만큼 나오는것 같다."
+		},
+		{
+			"title": "재무제표분석과 기업가치평가",
+			"lecturer": "황이석",
+			"point": 9.2,
+			"content": "교수님 강의력은 정말 경영대에서 손꼽힐만큼 좋다. 유머를 적절히 섞어서 하셔서 지루하다는 생각이 안 든다. 내용도 그렇다고 쉬운 것도 아닌데, 내공이 대단하시다.퀴즈의 경우, 전 수업시간에 나눠주는 핵심 질문에서 대부분(다는 아님) 출제된다. 교수님의 수업 내용을 중심으로 출제되기 때문에 확실히 수업을 듣는 것이 유리하다. 책은 굳이(?) 볼 필요는 없으나, 보면 확실히 도움은 된다."
+		},
+		{
+			"title": "기초전자기학 및 연습",
+			"lecturer": "정윤찬",
+			"point": 8.5,
+			"content": "1. 수업 교수님 영어가 알아듣기 정말 편합니다. 영어를 정말 못하는 저도 영강에 대한 불편은 없었네요. 강의력도 준수하시고 무엇보다 물리학적인 개념을 잘 설명해주십니다. 수업 중 질문을 던지고 발표를 하면 보너스점수를 주시는데 이 점수가 아주 크지는 않지만 나름 쏠쏠해요."
+		},
+		{
+			"title": "외계행성과 생명",
+			"lecturer": "Masateru Ishiguro",
+			"point": 7.6,
+			"content": "선생님과 조교님 다 너무너무 좋으신 분들입니다. 솔직히 문과생으로서 수업 내용은 따라가기가 너무 어려웠는데요 (과학 기초 1도 없던 사람), 선생님과 조교님께 많이 질문하면서 겨우겨우 따라가 중간 기말 시험을 보는 데에는 무리가 없었습니다!"
+		},
+		{
+			"title": "글쓰기의 기초",
+			"lecturer": "이주영",
+			"point": 8.2,
+			"content": "최고의 교수님. 강의력도 좋으시고 박학다식하고 학생들한테 관심도 많으십니다. 로드는 그냥 다른 글기랑 비슷한 수준이거나 오히려 적다고 볼 수도 있었어요. 영화보고 글쓰기, 서평, 비교 정의 글쓰기,소논문 정도인데 소논문 빼고는 짧은 글들이고 기한을 넉넉하게 주셔서 부담이 없습니다. "
+		},
+		{
+			"title": "경제학개론",
+			"lecturer": "정지영",
+			"point": 8.8,
+			"content": "한줄요약: 유익하면서도 학점따기 쉬운 일석이조의 꿀강 보통 학점 따기 쉬우면 비교적 배우고 얻어가는게 적은 경우가 많고, 얻어가는게 많으면 로드가 빡세고 학점 따기 어려운 경우가 많죠. 하지만 이 강좌는 그 두 가지를 모두 챙긴 꿀강이라고 할 수 있습니다. 졸업하기 전에 한번쯤은 꼭 들으시기를 추천드립니다."
+		},
+		{
+			"title": "음악의 원리",
+			"lecturer": "전상직",
+			"point": 8.5,
+			"content": "클래식을 듣기는 좋아하지만 잘 알지는 못하는 클알못(?), 또는 클래식 입문자들에게 추천해주고 싶은 강의이다. 음악을 듣고 드는 느낌을 긴장과 이완, 불안정한 상태에서 안정한 상태로의 회귀를 통한 만족감이라는 기본적인 관점을 갖고서, 리듬, 화성, 형식, 구조 등의 측면에서 해석할 수 있는 능력을 갖게 해준다. 수업 도중 농담도 잘 던지시고 개념설명을 위해 잘 공감가는 예시들을 가져오시기 때문에 편하게 수업을 들어도 이해가 잘 된다. "
+		},
+		{
+			"title": "일본대중문화",
+			"lecturer": "지은숙",
+			"point": 8.9,
+			"content": "일본에 조금이라도 관심이 있다. 한일관계에 관심이 있다. 서브컬쳐 문화를 즐기거나 즐기고 싶다. 라고 생각하는 사람들이면 꼭 필수로 들었으면 하는 강의. 물론 성적도 잘 주시지만 성적, 학점 다 떠나서 문화를 보는 하나의 틀이 생긴 인생의 소중한 경험이었던 것 같다."
+		},
+		{
+			"title": "인간관계의 심리학",
+			"lecturer": "오주용",
+			"point": 9.4,
+			"content": "교수님 너무 좋아요!!! 배려많이 해주시려고합니다. 평가는 레포트 한번, 기말, 조별발표 한번, 매주 활동 레포트제출인데 활동레포트는 그냥 조원이 돌아가면서 하나씩 적기 때문에 최대 2개씩 밖에 안씁니다. 또, 활동레포트라고 해도 그냥 그주에 한 활동이 뭔지에대해 5줄정도만 쓰면됩니다. "
+		},
+		{
+			"title": "미시경제이론",
+			"lecturer": "Gueron Yves Simon Bernard",
+			"point": 7.4,
+			"content": "미시를 들을 거라면 꼭 이 수업을 들으세요!! 얻어가는 것도 많고 교수님께서도 수업에 굉장히 공을 들이는 것 같으시고 절대평가여서 진짜 전공강의가 갖춰야 할 요소는 정말 다 갖춘 아주 좋은 강의입니다ㅠㅠㅠㅠ 교수님께서 프랑스인이신 관계로 가끔 영어 단어의 액센트를 잘못 준다든가 하는 외국인이라면 누구나 하는 실수를 가끔 하시긴 하지만"
+		},
+		{
+			"title": "공연예술의 이해",
+			"lecturer": "전예완",
+			"point": 8,
+			"content": "안녕하세요! 저는 음대생인데 이 강의가 너무 좋아서 매주 복습, 예습하고 수업 끝날 때마다 선생님에게 질문하는 등 열의를 가지고 임했습니다. 물론 학점 또한 굉장히 후하게 주셔서 아주 만족한 한 학기였습니다. 감사합니다! "
+		},
+		{
+			"title": "현대음악의 이해",
+			"lecturer": "이석원",
+			"point": 8.3,
+			"content": "참 교양강의. 평소에 음악을 들었던 학생들이 들으면 더 좋을 것 같습니다. 시험은 책 두번정도 읽으면 다 쓸수있습니다. 문제는 감상시험인데 곡의 포인트만 잘 잡으면 어느정도는 되는 것 같습니다. 수업내용이 음악만 다루는게 아니라 듣는 재미가 있습니다. 조교님들도 착하심."
+		},
+		{
+			"title": "남북분단과 한국전쟁",
+			"lecturer": "이동원",
+			"point": 9.3,
+			"content": "교수님이 이야기도 안지루하게 잘 풀어주시고 개그도 사이사이 넣어주시고 사료들도 다양하게 가져와주셔서 재밌었습니다. 기말도 짜잘한 문제 안건드리고 핵심만 나오기 때문에 기말준비도 편합니다. 과제도 뭐 그닥 부담 되지 않았던 것 같네요."
+		},
+		{
+			"title": "논리학",
+			"lecturer": "이정환",
+			"point": 9.4,
+			"content": "친절한 강사님. 알찬 내용. 후한 학점. 더 설명할 필요가 있겠는가? 논리학을 배우고 나니 이 수업을 듣는 것은 매우 논리적인 일이라는 것을 깨달았다 강추"
+		},
+		{
+			"title": "인문학글쓰기",
+			"lecturer": "이유선",
+			"point": 9.2,
+			"content": "두 학기 밖에 다니지 않았지만 지금까지 들었던 교양 중에 최고였다. 아마 4년동안 그건 바뀌지 않을 듯. 진짜 교양다운 교양이당 이렇게 말하면 버릇없겠지만 교수님도 너무 꿀귀이시다. 제발 다 이거 들으셈.."
+		},
+		{
+			"title": "초급한문 1",
+			"lecturer": "강민호",
+			"point": 8.8,
+			"content": "열심히하면 나오는 강의. 내신식으로 외워야하는 건 사실이지만 그러면서도 진정한 한문실력을 기를 수 있는 강의로 유명합니다 그리고 제 개그코드 기준 진짜 웃기세요ㅋㅋㅋ 진짜 꼼꼼히 듣고 받아적어야 합니다 근데 맨날 앞자리에서 열심히 듣고 리액션도 열심히 하면 이름기억하고 인사도 먼저 해주시고 감동임.."
+		},
+		{
+			"title": "논리학",
+			"lecturer": "권홍우",
+			"point": 9.3,
+			"content": "이번 겨울학기에는 초반에 가능성의 개념과 타당성의 개념 등을 다소 엄밀하게 다룬 후 명제 논리, 술어 논리, 다항 술어 논리, 동일성 술어 논리에 대해 배웠습니다. 논리학을 배울 수 있어 행복했고 계절을 들으면서 최초로 수강료가 아깝지 않다는 생각이 들 만큼 유익했습니다."
+		},
+		{
+			"title": "반도체소자",
+			"lecturer": "신형철",
+			"point": 7.6,
+			"content": "소자쪽으로 가기 위한 가장 기초적인 수업입니다. 서광석 교수님 수업을 듣다 드랍하고 다시 듣게 되었는데 잘 사용하지 않는 BJT와 같은 것을 배우지 않고 가장 중요한 MOSFET만 깊게 배울 수 있다는 점이 다음 상위 과목을 듣는데도 큰 도움이 되는 것 같습니다."
+		},
+		{
+			"title": "공연예술의 이해",
+			"lecturer": "남상식",
+			"point": 7.4,
+			"content": "교수님의 열정이 느껴지는 수업이었습니다! 수업 외에 교수님이 지정해주신 공연 3개를 관람하고 감상평을 써야하는데 세편의 공연 모두 너무 좋았습니다. 마지막 한 편의 경우 정말 제 인생공연이 되었습니다. 공연보러 다니는거 좋아하시는 분에게는 정말 좋은 수업인것 같습니다!"
+		},
+		{
+			"title": "종교와 영화",
+			"lecturer": "최화선",
+			"point": 7.2,
+			"content": "저는 공대생인데요, 모두가 이 강의를 들을 때 왜 듣냐고 학점 망칠 일 있냐고 그랬습니다. 하지만 저는 영화를 본다는 사실이 너무 좋았고 종교는 정말 1도 몰랐지만 그래도 연관성이 있나 하는 마음에 궁금해서 신청했습니다.결과는요? 제가 그냥 달라졌습니다."
+		},
+		{
+			"title": "화학",
+			"lecturer": "설지웅",
+			"point": 9.2,
+			"content": "이건 미쳤습니다. 문과생인데도 설쌤의 강의를 들으면 모든 내용이 머릿속에 잘 들어갑니다. 진짜 대학 4년반 다니는 동안 이렇게 강의 잘 하시는 교수님 처음 봤습니다. (강의 들어보시면 아실 거예요. 말로는 다 표현 못함) 향후에 설쌤의 화학수업을 들을 문돌이 문순이들을 위해 팁을 남기자면 강의교재로 Atkins가 적혀있는데 사실 책은 따로 안 보셔도 됩니다. 시험이 수업시간에 다뤘던 것에서만 나오기 때문에 수업만 집중해서 잘 들으시면 충분히 좋은 점수 받으실 수 있어요."
+		},
+		{
+			"title": "논리와 비판적 사고",
+			"lecturer": "최동호",
+			"point": 8.7,
+			"content": "한 학기동안 논리학에 흥미를 갖게 된 강의였습니다. 많은 분들이 교수님 목소리가 졸리다고 하시는데, 강의력에 대해 기대치가 낮아서였는지는 모르겠지만 저는 괜찮았습니다! 처음에는 되게 용어들이 모호하고, 오류, 정의 등을 배우다 보니 암기과목이라는 생각도 들었는데, 기말고사 파트 논리학 증명 할때는 정말 재밌었습니다!"
+		},
+		{
+			"title": "한글맞춤법의 이론과 실제",
+			"lecturer": "황선엽",
+			"point": 8.2,
+			"content": "2017년 2학기에 들었습니다. 강의평이 상당히 많이 존재해서 제가 도움이 될 지는 모르겠지만요! 명강이라는 말에 상당히 기대하고 들었던 수업인데, 기대만큼 만족하며 들었습니다. 중간고사 이전까지는 국어의 역사/한글 창제 과정 등을 교수님께서 이야기 형식으로 설명해 주십니다. "
+		},
+		{
+			"title": "통계학",
+			"lecturer": "정혜영",
+			"point": 7.9,
+			"content": "교수님께서 강의력이 굉장히 좋으셔서 통계학에 대한 이해가 수월했습니다. 고등학교때에는 암기하는 과목이라는 생각이 아무래도 짙은데 수업을 열심히 듣게 들으니 뭔가 통계학에서 '왜'라는 질문에 답을 할 수 있게 되더라고요. 정말 최고의 강의였어요."
+		}
+	];
+	function shuffle(array) {
+		var currentIndex = array.length, temporaryValue, randomIndex;
+		// While there remain elements to shuffle...
+		while (0 !== currentIndex) {
+			// Pick a remaining element...
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex -= 1;
+			// And swap it with the current element.
+			temporaryValue = array[currentIndex];
+			array[currentIndex] = array[randomIndex];
+			array[randomIndex] = temporaryValue;
+		}
+		return array;
+	}
+	jQuery(function ($) {
+		shuffle(lecture_evaluations);
+		$('#eval1 > div > #title').text(lecture_evaluations[0].title);
+		$('#eval1 > div > #lecturer').text(lecture_evaluations[0].lecturer);
+		$('#eval1 > div > span > #point').text(lecture_evaluations[0].point.toFixed(1));
+		$('#eval1 > div > #evalcontent').text(lecture_evaluations[0].content);
+		$('#eval2 > div > #title').text(lecture_evaluations[1].title);
+		$('#eval2 > div > #lecturer').text(lecture_evaluations[1].lecturer);
+		$('#eval2 > div > span > #point').text(lecture_evaluations[1].point.toFixed(1));
+		$('#eval2 > div > #evalcontent').text(lecture_evaluations[1].content);
+		$('#eval3 > div > #title').text(lecture_evaluations[2].title);
+		$('#eval3 > div > #lecturer').text(lecture_evaluations[2].lecturer);
+		$('#eval3 > div > span > #point').text(lecture_evaluations[2].point.toFixed(1));
+		$('#eval3 > div > #evalcontent').text(lecture_evaluations[2].content);
+	});
+</script>
+<!-- 상단 배너 및 로그인 -->
+<div style="float:left; width:100%; height:122px;">
+	<div style="float:left; width:230px; height:120px; border:1px solid #ccc">
+		<!-- /147886618/pc_main_left -->
+		<div id='div-gpt-ad-1461987705241-1' style='height:120px; width:230px;'>
+			<script type='text/javascript'>
+				googletag.cmd.push(function () { googletag.display('div-gpt-ad-1461987705241-1'); });
+			</script>
+		</div>
+	</div>
+	<div style="float:left; width:450px; height:120px; border:1px solid #ccc; margin-left:6px;">
+		<!-- /147886618/pc_main_center -->
+		<div id='div-gpt-ad-1461987705241-0' style='height:120px; width:450px;'>
+			<script type='text/javascript'>
+				googletag.cmd.push(function () { googletag.display('div-gpt-ad-1461987705241-0'); });
+			</script>
+		</div>
+	</div>
+	<div style="float:right; width:277px; height:120px; border:1px solid #ccc;">
+		<div style="overflow:hidden;"><div style="*zoom:1;padding:0px 0px 0px 0px !important; padding:none !important;"><!-- colorset의 값에 따라 css 파일을 import 한다 -->
+<script type="text/javascript">
+    var keep_signed_msg = "브라우저를 닫더라도 로그인이 계속 유지될 수 있습니다.\n\n로그인 유지 기능을 사용할 경우 다음 접속부터는 로그인을 하실 필요가 없습니다.\n\n단, 게임방, 학교 등 공공장소에서 이용 시 개인정보가 유출될 수 있으니 꼭 로그아웃을 해주세요.";
+    xAddEventListener(window, "load", function(){ doFocusUserId("fo_login_widget"); });
+</script>
+<div class="default_login" id="login">
+	<!--
+	<div class="title_box">
+		<b class="title">Member Login</b>
+	</div>
+	-->
+	<div class="list_box" style="padding:3px 13px;">
+	<!--<form action="./" method="post" onsubmit="return procFilter(this, widget_login)" id="fo_login_widget"><input type="hidden" name="error_return_url" value="/index.php?m=0" /><input type="hidden" name="vid" value="" />-->
+	<form ruleset="@login" action="https://snulife.com" method="post" id="fo_login_widget" class="form" style=" margin:0px; padding:0px;"> 
+		<input type="hidden" name="success_return_url" value="http://snulife.com/index.php?m=0" />
+		<input type="hidden" name="act" value="procMemberLogin" />
+		<input type="hidden" name="mid" value="main" />
+			<table border="0" cellpadding="3" width="100%">
+				<!--<col width="30" align="center"></col>--><col></col><col width="50" align="left"></col>
+				<tr><td colspan=2 style="padding:0px; margin:0px;"><input type="checkbox" name="keep_signed" id="keepid" value="Y" onclick="if(this.checked) return confirm(keep_signed_msg);" />
+					<label for="keepid">로그인 유지</label>
+				</td></tr>
+				<tr><!--<td> ID : </td>--><td><input name="user_id" type="text" class="input" id="login_form_user_id" tabindex=1 style="width:150px;"/></td><td rowspan="2">
+								<input type="submit" value="" class="submit" tabindex=3/>
+								</td></tr>
+				<tr><!--<td> PW : </td>--><td><input name="password" type="password" class="input" tabindex=2 style="width:150px;"/></td></tr>
+								                                <tr><td colspan=2 class="list_button" style="padding:0px; margin:0px;">
+                                    <a href="https://snulife.com/index.php?m=0&amp;mid=main&amp;act=dispMemberFindAccount" style="color:#777">비밀번호찾기&nbsp;&nbsp;&nbsp;</a>
+                                    <span style="color:#ccc">|</span>&nbsp;&nbsp;&nbsp;
+                                    <a href="https://snulife.com/index.php?m=0&amp;mid=main&amp;act=dispMemberSignUpForm" style="color:#777">회원가입<!--<img src="/widgets/login_info/skins/sejin7940_login_sero/images/default/i_join.gif">--></a>
+                                    <!--<img src="/widgets/login_info/skins/sejin7940_login_sero/images/default/i_help.gif">-->
+                                </td></tr>
+			</table>
+		</form>
+	</div>
+</div>
+<!-- OpenID -->
+</div></div>
+	</div>
+</div>
+<!-- 슬라이딩 배너 -->
+<div style="float:left; width:973px; height:164px; margin-top:6px; margin-bottom:6px; border:1px solid #ccc;">
+	<div style="overflow:hidden;"><div style="*zoom:1;padding:0px 0px 0px 0px !important; padding:none !important;"><!--#Meta:widgets/contentslider/skins/Nivo-slider/js/jquery.nivo.slider.js--><!--[if IE 6]>
+<script src="/widgets/contentslider/skins/Nivo-slider/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>
+  DD_belatedPNG.fix('.nivo-controlNav a, .nivo-directionNav a');
+</script>
+<![endif]-->
+
+<div id="nivoslider_Nivoslider_192921109">
+<div id="Nivoslider_192921109" class="nivoSlider">
+								<!-- sejin7940 수정 (120212) - 확장변수 이용한 링크 설정시 제대로 안 되던 버그 수정 -->
+											<a href="https://snulife.com/index.php?mid=notice&document_srl=141964163"   /> 
+										
+						<img id="thumb_141985754" src="https://snulife.com/files/cache/thumbnails/754/985/141/972x164.crop.jpg" title='' alt='강의실플러스 by 운영진GG' />
+							</a>
+								<!-- sejin7940 수정 (120212) - 확장변수 이용한 링크 설정시 제대로 안 되던 버그 수정 -->
+											<a href="https://snulife.com/class" onclick="window.open(this.href);return false" /> 
+										
+						<img id="thumb_116280872" src="https://snulife.com/files/cache/thumbnails/872/280/116/972x164.crop.jpg" title='' alt='강의실+ 게시판 by 운영진8' />
+							</a>
+	</div>
+</div>
+<script> 
+jQuery(document).ready(function($) {
+	$('#Nivoslider_192921109').nivoSlider({
+		effect:'fade', //Specify sets like: 'fold,fade,sliceDown'
+		slices:20,
+		animSpeed:500, //Slide transition speed
+		pauseTime:3500,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:true, //Next & Prev
+		directionNavHide:true, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		controlNavThumbsFromRel:false, //Use image rel for thumbs
+		controlNavThumbsSearch: '.jpg', //Replace this with...
+		controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+		keyboardNav:true, //Use left & right arrows
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:1, //Universal caption opacity  ( 0.8)
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){}, //Triggers after all slides have been shown
+		lastSlide: function(){}, //Triggers when last slide is shown
+		afterLoad: function(){} //Triggers when slider has loaded
+	});
+	$("#Nivoslider_192921109").find("a[rel^='prettyPhoto']:not(.nivo-prevNav,.nivo-nextNav,.nivo-control)").prettyPhoto({theme:'pp_default'});
+});
+</script> 
+</div></div>
+</div>
+<div style="float:left; width:230px;">
+	<!-- 공감추천-->
+	<div style="width:100%; height:290px;  border:1px solid #ccc; position:relative;">
+		<div style="width:95%; height:23px; border-bottom:1px solid #ccc; background:#f5f5f5;  padding:7px 0px 0px 5%;">
+			<span style="font-weight:bold; font-family:'맑은고딕','나눔 고딕'; ">공감추천</span>
+		</div>
+		<div style="width:92%; margin-left:8px; position:absolute; top:8px;">
+			<div style="overflow:hidden;"><div style="*zoom:1;padding:0px 0px 0px 0px !important; padding:none !important;">    <div class="widgetContainer">
+            <ul class="widgetTabA widgetTab">
+    <li class="active"><a href="" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),0,0,0)" style="padding:0px 5px;" >오늘</a></li>
+    <li><a href="" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),1,0,0)" style="padding:0px 5px;" >이번주</a></li>
+    <li><a href="" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),2,0,0)" style="padding:0px 5px;" >이번달</a></li>
+</ul>
+<dl class="widgetDivider">
+    <dt>오늘</dt>
+    <dd class="open">
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				1			</span>
+			                                                <a href="https://snulife.com/162612780" style="text-decoration:none; ">근데 우리학교 선배님...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+15</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				2			</span>
+			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+8</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				3			</span>
+			                                                <a href="https://snulife.com/162609474" style="text-decoration:none; ">아파트 구매 후기입니다.</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+7</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				4			</span>
+			                                                <a href="https://snulife.com/162612913" style="text-decoration:none; ">중-러 군용기 경로.jpg</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+5</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				5			</span>
+			                                                <a href="https://snulife.com/162603650" style="text-decoration:none; ">요즘 핫한 독서실 에어...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+4</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				6			</span>
+			                                                <a href="https://snulife.com/162608196" style="text-decoration:none; ">시댁 연락&amp;부양문제</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+4</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				7			</span>
+			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+4</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				8			</span>
+			                                                <a href="https://snulife.com/162614883" style="text-decoration:none; ">버스 에어콘 빌런은 겪...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+4</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				9			</span>
+			                                                <a href="https://snulife.com/162594706" style="text-decoration:none; ">1일 5사나 41일차</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+4</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				10			</span>
+			                                                <a href="https://snulife.com/162617262" style="text-decoration:none; ">애플 ceo vs 삼전 ceo ...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+3</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+    <dt>이번주</dt>
+    <dd>
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				1			</span>
+			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+635</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				2			</span>
+			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+544</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				3			</span>
+			                                                <a href="https://snulife.com/162548147" style="text-decoration:none; ">[스압] 참스승 솔비.jpg</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+445</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				4			</span>
+			                                                <a href="https://snulife.com/162547581" style="text-decoration:none; ">짦은 회사생활, 배운 ...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+392</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				5			</span>
+			                                                <a href="https://snulife.com/162496276" style="text-decoration:none; ">(광고주의)참새침공이 ...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+342</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				6			</span>
+			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+322</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				7			</span>
+			                                                <a href="https://snulife.com/162482127" style="text-decoration:none; ">발로 치이는 아이돌 중...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+270</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				8			</span>
+			                                                <a href="https://snulife.com/162507763" style="text-decoration:none; ">대한민국 남성들의 삶</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+264</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				9			</span>
+			                                                <a href="https://snulife.com/162498162" style="text-decoration:none; ">국민MC 박명수.jpg</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+257</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				10			</span>
+			                                                <a href="https://snulife.com/162582949" style="text-decoration:none; ">한약계 쾌거~ 신기술 ...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+230</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+    <dt>이번달</dt>
+    <dd>
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				1			</span>
+			                                                <a href="https://snulife.com/161651807" style="text-decoration:none; ">턱걸이</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+1058</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				2			</span>
+			                                                <a href="https://snulife.com/161381264" style="text-decoration:none; ">(펌) 어릴때 엄마가 보...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+785</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				3			</span>
+			                                                <a href="https://snulife.com/161121089" style="text-decoration:none; ">술자리에서 친구가 해...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+767</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				4			</span>
+			                                                <a href="https://snulife.com/162244977" style="text-decoration:none; ">자주 접하는 영어 표현들</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+761</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				5			</span>
+			                                                <a href="https://snulife.com/161965066" style="text-decoration:none; ">쩝쩝거렸다고 까였네요...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+708</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				6			</span>
+			                                                <a href="https://snulife.com/161402712" style="text-decoration:none; ">변기수가 말하는 결혼...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+655</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				7			</span>
+			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+635</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				8			</span>
+			                                                <a href="https://snulife.com/161413208" style="text-decoration:none; ">자살한 친오빠에 대한 ...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+612</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				9			</span>
+			                                                <a href="https://snulife.com/161786642" style="text-decoration:none; ">대기업에 입사한 대학...</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+590</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<span style="font-weight:bold; color:#32aed4; font-family:'Arial'; font-size:14px; text-align:right; padding-right:3px;">
+				10			</span>
+			                                                <a href="https://snulife.com/162238922" style="text-decoration:none; ">핑클 서열 4위.jpg</a>
+                                            </td>
+            		<td style="color:#ccc; text-align:right;">+555</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+</dl>
+    </div>
+</div></div>
+		</div>
+	</div>
+	<!-- 학교 주요 사이트 -->
+	<div style="width:100%;  margin-top:6px; border:1px solid #ccc; float:left;">
+		<div style="width:95%; height:23px; border-bottom:1px solid #ccc; background:#f5f5f5;  padding:7px 0px 0px 5%;">
+			<span style="font-weight:bold; font-family:'맑은고딕','나눔 고딕'; ">학교 주요 사이트</span>
+		</div>
+		<ul style="list-style:none; padding:10px; margin:0px; float:left;">
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://my.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">마이스누</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://etl.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">eTL</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://www.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">서울대</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://lib.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">도서관</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://it4u.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">정보화</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://admission.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">입학관리</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://sugang.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">수강신청</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://www.snuco.com" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">생협</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://moose.snu.ac.kr/board/map/kr/campus_main.html" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">캠퍼스맵</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://www.snunews.com" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">대학신문</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://www.snujn.com" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">서울대저널</a>
+			</li>
+						<li style="float:left; width:62px; padding:3px; ">
+				<a href="http://we.snu.ac.kr" onclick="window.open(this.href);return false;"
+					style="color:#8c8c8c">총학생회</a>
+			</li>
+					</ul>
+	</div>
+</div>
+<div style="float:left; width:458px; margin-left:9px;">
+	<!-- BEST 게시판 -->
+		<div style="width:100%; height:152px;  margin-bottom:13px;">
+		<div style="width:95%; height:23px;  border:1px solid #ccc; background:#f5f5f5;  background:#f5f5f5; padding:7px 0px 0px 3%;">
+			<span style="font-weight:bold; font-family:'맑은고딕','나눔 고딕'; ">BEST 게시물</span>
+			<div style="margin-top:-16px; border:0px solid red; width:98%; margin-left:1%; float:left; ">
+				<div style="overflow:hidden;"><div style="*zoom:1;padding:0px 0px 0px 0px !important; padding:none !important;">    <div class="widgetContainer">
+            <ul class="widgetTabA widgetTab">
+    <li class="active"><a href="" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),0,0,0)" style="padding:0px 5px;" >전체</a></li>
+    <li><a href="https://snulife.com/gongsage" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),1,0,0)" style="padding:0px 5px;" >자유게시판</a></li>
+    <li><a href="https://snulife.com/love" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),2,0,0)" style="padding:0px 5px;" >샤랑방</a></li>
+    <li><a href="https://snulife.com/graduate" onmouseover="content_widget_tab_show(jQuery(this),jQuery(this).parents('ul.widgetTabA').next('dl.widgetDivider'),3,0,0)" style="padding:0px 5px;" >졸업생라운지</a></li>
+</ul>
+<dl class="widgetDivider">
+    <dt>전체</dt>
+    <dd class="open">
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배인의 인터뷰.gisa</a>
+                            <span class="replyNum" title="54 comment(s)"><a href="https://snulife.com/162567258#comment">[54]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+634</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정고시 본 것을 꽤 많이 후회한다.</a>
+                            <span class="replyNum" title="99 comment(s)"><a href="https://snulife.com/162550874#comment">[99]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+543</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘들에게 해주는 조언.jpg</a>
+                            <span class="replyNum" title="32 comment(s)"><a href="https://snulife.com/162579694#comment">[32]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+321</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162582949" style="text-decoration:none; ">한약계 쾌거~ 신기술 등장~</a>
+                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162582949#comment">[34]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+230</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162573450" style="text-decoration:none; ">아기를 낳아서 키워보고 느낀점들</a>
+                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162573450#comment">[34]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+192</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+    <dt>자유게시판</dt>
+    <dd>
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162567258" style="text-decoration:none; ">도어맨 출신 객실지배인의 인터뷰.gisa</a>
+                            <span class="replyNum" title="54 comment(s)"><a href="https://snulife.com/162567258#comment">[54]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+634</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162550874" style="text-decoration:none; ">공무원 8년, 이제 행정고시 본 것을 꽤 많이 후회한다.</a>
+                            <span class="replyNum" title="99 comment(s)"><a href="https://snulife.com/162550874#comment">[99]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+543</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162579694" style="text-decoration:none; ">작사가 김이나가 청춘들에게 해주는 조언.jpg</a>
+                            <span class="replyNum" title="32 comment(s)"><a href="https://snulife.com/162579694#comment">[32]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+321</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162582949" style="text-decoration:none; ">한약계 쾌거~ 신기술 등장~</a>
+                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162582949#comment">[34]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+230</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162592157" style="text-decoration:none; ">노르웨이산 고등어가 많은 이유    .jpg</a>
+                            <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/162592157#comment">[23]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+190</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+    <dt>샤랑방</dt>
+    <dd>
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162600477" style="text-decoration:none; ">헤어지고 며칠 뒤 다른 여자랑 있는걸 봤어요</a>
+                            <span class="replyNum" title="23 comment(s)"><a href="https://snulife.com/162600477#comment">[23]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+80</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162602673" style="text-decoration:none; ">어리니까 봐준다.gif</a>
+                            <span class="replyNum" title="15 comment(s)"><a href="https://snulife.com/162602673#comment">[15]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+61</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162602455" style="text-decoration:none; ">댕댕이들 구출.gif</a>
+                            <span class="replyNum" title="5 comment(s)"><a href="https://snulife.com/162602455#comment">[5]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+38</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162600341" style="text-decoration:none; ">30대 여자 셀소를 수줍게 올려 보아요</a>
+                            <span class="replyNum" title="13 comment(s)"><a href="https://snulife.com/162600341#comment">[13]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+26</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162596254" style="text-decoration:none; ">애인의 정치 성향?</a>
+                            <span class="replyNum" title="14 comment(s)"><a href="https://snulife.com/162596254#comment">[14]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+24</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+    <dt>졸업생라운지</dt>
+    <dd>
+                        <table class="widgetTableA" border="1" cellspacing="0">
+        <tbody>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162573450" style="text-decoration:none; ">아기를 낳아서 키워보고 느낀점들</a>
+                            <span class="replyNum" title="34 comment(s)"><a href="https://snulife.com/162573450#comment">[34]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+192</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162592630" style="text-decoration:none; ">공항에서 일하다보면...</a>
+                            <span class="replyNum" title="25 comment(s)"><a href="https://snulife.com/162592630#comment">[25]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+156</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162608196" style="text-decoration:none; ">시댁 연락&amp;부양문제</a>
+                            <span class="replyNum" title="19 comment(s)"><a href="https://snulife.com/162608196#comment">[19]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+93</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162557755" style="text-decoration:none; ">아래 에어팟 끼고 있는 남편 관련</a>
+                            <span class="replyNum" title="27 comment(s)"><a href="https://snulife.com/162557755#comment">[27]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+63</td>
+                </tr>
+                <tr>
+                <td class="title" style="">
+						<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif"> 
+			                                                <a href="https://snulife.com/162574618" style="text-decoration:none; ">아이 학군 때문에 고민입니다.</a>
+                            <span class="replyNum" title="25 comment(s)"><a href="https://snulife.com/162574618#comment">[25]</a></span>
+                                                    <span class="icon"></span>
+                    </td>
+            		<td style="color:#ccc; text-align:right;">+53</td>
+                </tr>
+                </tbody>
+    </table>
+        </dd>
+</dl>
+    </div>
+</div></div>
+			</div>
+		</div>
+	</div>
+		<!-- 강의보감 -->
+	<div style='width:95%; height:23px;  border:1px solid #ccc; background:#f5f5f5;  background:#f5f5f5; padding:7px 0px 0px 3%;'>
+		<a href='class'>
+			<span style="font-weight:bold; font-family:'맑은고딕','나눔 고딕'; ">강의보감</span>
+		</a>
+	</div>
+	<div style='width:95%; padding: 10px 10px 5px 10px;'>
+		<div id='evaluations' style="border-collapse:collapse; width: 100%;">
+			<a href="class">
+				<div id='eval1' style='width:98%; padding-top: 1px; margin: 0 auto;'>
+					<div style="padding-left: 1px; height:22px;">
+						<span id='title' style=" margin-left: -1px; font-weight:900; font-size:12px"></span>
+						<span id='lecturer' style="	margin-left: 5px; font-size:11px;"></span>
+						<span style=" float:right; font-weight:500; font-size:11px; ">총평점
+							<span id='point' style="font-weight:900;"> </span>
+						</span>
+					</div>
+					<div style="overflow: hidden; text-overflow: ellipsis;">
+						<div id='evalcontent' style=" font-size:11px; height: 3em; line-height: 1.5; display: block"></div>
+					</div>
+				</div>
+			</a>
+			<div style='width:100%; margin-bottom:10px; height: 10px; border-bottom: 1px solid #f1f1f1;'></div>
+			<a href="class">
+				<div id='eval2' style='width:98%; padding-top: 1px; margin: 0 auto;'>
+					<div style="padding-left: 1px; height:22px;">
+						<span id='title' style=" margin-left: -1px; font-weight:900; font-size:12px"></span>
+						<span id='lecturer' style="	margin-left: 5px; font-size:11px;"></span>
+						<span style=" float:right; font-weight:500; font-size:11px; ">총평점
+							<span id='point' style="font-weight:900;"> </span>
+						</span>
+					</div>
+					<div style="overflow: hidden; text-overflow: ellipsis;">
+						<div id='evalcontent' style=" font-size:11px; height: 3em; line-height: 1.5; display: block"></div>
+					</div>
+				</div>
+			</a>
+			<div style='width:100%; margin-bottom:10px; height: 10px; border-bottom: 1px solid #f1f1f1;'></div>
+			<a href="class">
+				<div id='eval3' style='width:98%; padding-top: 1px; margin: 0 auto;'>
+					<div style="padding-left: 1px; height:22px;">
+						<span id='title' style=" margin-left: -1px; font-weight:900; font-size:12px"></span>
+						<span id='lecturer' style="	margin-left: 5px; font-size:11px;"></span>
+						<span style=" float:right; font-weight:500; font-size:11px; ">총평점
+							<span id='point' style="font-weight:900;"> </span>
+						</span>
+					</div>
+					<div style="overflow: hidden; text-overflow: ellipsis;">
+						<div id='evalcontent' style=" font-size:11px; height: 3em; line-height: 1.5; display: block"></div>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div style='margin:15px 0px 0px 15px;'>
+	</div>
+</div>
+<div style="float:right; width:276px; margin-right:2px;">
+	<!-- 공지사항 -->
+	<div style="width:100%; height:152px; margin-bottom:13px; ">
+		<div style="width:95%; height:23px;  border:1px solid #ccc; background:#f5f5f5;  background:#f5f5f5; padding:7px 0px 0px 5%;">
+			<a href="notice">
+				<span style="font-weight:bold; font-family:'맑은고딕','나눔 고딕'; ">공지사항</span>
+			</a>
+		</div>
+		<div style="float:left; width:90%; margin-left:5%; margin-top:15px">
+			<div style="overflow:hidden;"><div style="*zoom:1;padding:0px 0px 0px 0px !important; padding:none !important;">    <div class="widgetContainer">
+                    <ul class="widgetA">
+                <li>
+                            											<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif" style="vertical-align:text-top;"> 
+                    					                                        <a href="https://snulife.com/162476216" class="title">자유게시판 정치/사회 관련 게시물 ...</a>
+                                                                                    <span class="icon"></span>
+                                                        </li>
+                <li>
+                            											<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif" style="vertical-align:text-top;"> 
+                    					                                        <a href="https://snulife.com/159004140" class="title">[종료][기말고사 야식]Cheese Burge...</a>
+                                            <span class="replyNum" title="3 comment(s)"><a href="https://snulife.com/159004140#comment" style="color:#ff1a1a;">[3]</a></span>
+                                                                                    <span class="icon"></span>
+                                                        </li>
+                <li>
+                            											<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif" style="vertical-align:text-top;"> 
+                    					                                        <a href="https://snulife.com/156933424" class="title">간담회 후속 조치 안내 - 누적신고...</a>
+                                            <span class="replyNum" title="7 comment(s)"><a href="https://snulife.com/156933424#comment" style="color:#ff1a1a;">[7]</a></span>
+                                                                                    <span class="icon"></span>
+                                                        </li>
+                <li>
+                            											<img src="/widgets/contentextended/skins/snulife/img/white/newest_dot.gif" style="vertical-align:text-top;"> 
+                    					                                        <a href="https://snulife.com/156114730" class="title">[중간고사 야식] 뽑Us</a>
+                                                                                    <span class="icon"></span>
+                                                        </li>
+            </ul>
+        </div>
+</div></div>
+		</div>
+	</div>
+	<!-- 스누칼럼 -->
+	<div style="width:100%;">
+		<div style="width:95%; height:23px;  border:1px solid #ccc; background:#f5f5f5;  background:#f5f5f5; padding:7px 0px 0px 5%;">
+			<a href="column_series">
+				<span style="font-weight:bold; font-family:'맑은고딕','나눔 고딕'; ">스누 칼럼</span>
+			</a>
+		</div>
+		<div style="margin:11px 0px 0px 15px;">
+			<div style="overflow:hidden;"><div style="*zoom:1;padding:0px 0px 0px 0px !important; padding:none !important;">    <div class="widgetContainer">
+                <ul class="widgetGalleryA" style="width:272px; ">
+        <li style="width:122px; float:left; ">
+                                    <a href="https://snulife.com/column_normal" class="thumb" style="width:120px;height:75px; border:1px solid #ccc;">
+                                            <img src="https://snulife.com/files/cache/thumbnails/491/520/158/120x75.crop.jpg" style="width:120px;height:75px"/>
+                    				                                </a>
+                            				<p style="margin:0px; padding:0px; text-align:center;">
+										<a><strong class="board">자유칼럼</strong></a>
+									</p>
+				<p style="margin:1px 0px 0px 0px;  text-align:center;">
+                <a href="https://snulife.com/column_normal" class="title">기억이 잘못된 이야기</a>
+                                                                    <span class="icon"></span>
+                				</p>
+                </li>
+            <li style="width:122px; float:left;  margin-right:0px;">
+                                    <a href="https://snulife.com/snucolumn27" class="thumb" style="width:120px;height:75px; border:1px solid #ccc;">
+                                            <img src="https://snulife.com/files/cache/thumbnails/592/028/134/120x75.crop.jpg" style="width:120px;height:75px"/>
+                    				                                </a>
+                            				<p style="margin:0px; padding:0px; text-align:center;">
+										<a><strong class="board">주간 인디</strong></a>
+									</p>
+				<p style="margin:1px 0px 0px 0px;  text-align:center;">
+                <a href="https://snulife.com/snucolumn27" class="title">주간 인디, 4월 4주차 ...</a>
+                                    <sup class="replyNum" title="Replies"><a href="https://snulife.com/snucolumn27#comment">1</a></sup>
+                                                                    <span class="icon"></span>
+                				</p>
+                </li>
+        </ul>
+    </div>
+</div></div>
+		</div>
+	</div>
+</div>
+<div style="height:820px">
+</div>
+  
+											</div>
+											</div>
+			<!-- 중앙 내용 영역 (끝) -->
+		</div>
+		<!-- 중앙 부분 (끝) -->
+		
+		<!-- 하단부분  시작 -->
+		<div id="footer" style="width:975px; float:left; background:none; ">
+			<div style="width:100%; margin:0px auto; text-align:left; border:0px solid red;">
+						<ul id="bottom_menu">
+															<li><a href="/snulife_introduce">SNULife 소개</a></li>
+											<li>|</li>				<li><a href="/admin_introduce">운영진 소개</a></li>
+											<li>|</li>				<li><a href="/contact">광고문의</a></li>
+											<li>|</li>				<li><a href="/agreement">이용약관</a></li>
+											<li>|</li>				<li><a href="/boardrule">게시판 이용규칙</a></li>
+											<li>|</li>				<li><a href="/privacy">개인정보 보호정책</a></li>
+											<li>|</li>				<li><a href="/warning">제재공시</a></li>
+											<li>|</li>				<li><a href=""></a></li>
+									<li><a href=https://snulife.com/index.php?l=en>English</a></li>
+						</ul>			<div id="copyright" class="bar2">Copyright ⓒ 2000-2019 SNULife. All rights reserved.</div>
+			<!--<div style="float:right; margin-top:22px; width:12%; margin-left:20px;"><img src="/layouts/new_snulife/images/default/logo_bottom.gif"></div>-->
+			</div>
+		</div>		<!-- 하단부분  끝 -->
+		</div>
+	</div>
+	<!-- 홈페이지 부분 끝 -->
+	<!-- 하단부분  시작 -->
+			<!-- 레이아웃 자체 로그인 사용시 -->
+		<!-- 로그인 창 부분 (끝) -->
+		<!-- Quick Menu -->
+		</div>
+<script>
+jQuery(function($){
+	/* live 이벤트로 적용 (image_gallery 컴포넌트와의 호환 위함) */
+	$('.modalWindow').live('click', function() {
+		if(document.getElementById('loginWindow').style.display=='inline') {
+			document.getElementById('loginWindow').style.display='none';
+		}
+	});
+});
+</script>
+<!-- 인증회원이 회원정보 수정 안 한 경우 회원수정페이지로 강제 이동 -->
+<!-- 모달뷰 이용하는 경우 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59661278-1', 'auto');
+  ga('send', 'pageview');
+</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59661278-1', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- ETC -->
+	<div class="wfsr"></div>
+	<script type="text/javascript" src="/addons/autolink/autolink.js?20130817100143"></script>	<script type="text/javascript" src="/common/js/plugins/ui/jquery-ui.min.js?20140726100840"></script>	<script type="text/javascript" src="/common/js/plugins/ui/jquery.ui.datepicker-ko.js?20140726100840"></script>	<script type="text/javascript" src="/addons/resize_image/js/resize_image.min.js?20130831221229"></script>	<script type="text/javascript" src="/files/cache/js_filter_compiled/f91f279b48322ebcb4f2121e83184d39.ko.compiled.js?20190411211203"></script>	<script type="text/javascript" src="/files/cache/js_filter_compiled/072803a0ced881c8de6c54f4a6d81b39.ko.compiled.js?20190411211203"></script></body>
+</html>

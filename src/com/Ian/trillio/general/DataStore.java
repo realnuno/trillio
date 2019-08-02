@@ -22,6 +22,7 @@ public class DataStore {
     }
 
     private static List<List<Bookmark>> bookmarks = new ArrayList<>();
+
     public static List<List<Bookmark>> getBookmarks() {
         return bookmarks;
     }

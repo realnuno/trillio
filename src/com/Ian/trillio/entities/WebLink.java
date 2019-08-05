@@ -6,6 +6,15 @@ import org.apache.commons.lang3.StringUtils;
 public class WebLink extends Bookmark implements Sharable {
     private String url;
     private String host;
+    private String htmlPage;
+    private DownloadStatus downloadStatus = DownloadStatus.NOT_ATTEMTED;
+
+    public enum DownloadStatus {
+        NOT_ATTEMTED,
+        SUCCESS,
+        FAILED,
+        NOT_ELIGIBLE;
+    }
 
     public String getUrl() {
         return url;
@@ -21,6 +30,22 @@ public class WebLink extends Bookmark implements Sharable {
 
     public void setHost(String host) {
         this.host = host;
+    }
+
+    public DownloadStatus getDownloadStatus() {
+        return downloadStatus;
+    }
+
+    public void setDownloadStatus(DownloadStatus downloadStatus) {
+        this.downloadStatus = downloadStatus;
+    }
+
+    public void setHtmlPage(String htmlPage) {
+        this.htmlPage = htmlPage;
+    }
+
+    public String getHtmlPage() {
+        return htmlPage;
     }
 
     @Override

@@ -1,5 +1,6 @@
 package com.Ian.trillio.general;
 
+import com.Ian.trillio.bgjobs.WebpageDownloaderTask;
 import com.Ian.trillio.entities.Bookmark;
 import com.Ian.trillio.entities.User;
 import com.Ian.trillio.managers.BookmarkManager;
@@ -40,6 +41,15 @@ public class Launch {
     public static void main(String[] args) {
         loadData();
         start();
+        System.out.println("=======================================================================================");
+
+        //Background jobs
+        runDownloaderJob();
+    }
+
+    private static void runDownloaderJob() {
+        WebpageDownloaderTask task = new WebpageDownloaderTask(true);
+        (new Thread(task)).start();
     }
 
     private static void start() {

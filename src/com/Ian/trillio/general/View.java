@@ -22,9 +22,10 @@ public class View {
                         BookmarkController.getInstance().saveUserBookmark(user, bookmark);
                         System.out.println("New item Bookmarked -- " + bookmark);
                     }
+                    // Mark as kid-friendly
                     if(user.getUserType().equals(UserType.EDITOR) || user.getUserType().equals(UserType.CHIEF_EDITOR)) {
                         if(bookmark.isKidsFriendlyEligible() && bookmark.getKidFriendlyStatus().equals(KidsFriendlyStatus.UNKNOWN)) {
-                            String kidFriendlyStatus = getKidFriendlyDecision(bookmark);
+                             String kidFriendlyStatus = getKidFriendlyDecision(bookmark);
                             if(!kidFriendlyStatus.equals(KidsFriendlyStatus.UNKNOWN)) {
                                 BookmarkController.getInstance().setKidFriendlyStatus(user, KidsFriendlyStatus.valueOf(kidFriendlyStatus), bookmark);
                             }

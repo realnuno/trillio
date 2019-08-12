@@ -2,48 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="887bff71-5ef6-4691-b328-a20a287e2a18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/2000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Referenced_Libraries/2001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/trillio/2000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/trillio/2001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/bgjobs/WebpageDownloaderTask$Downloader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/bgjobs/WebpageDownloaderTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/WebLink$DownloadStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ian/trillio/bgjobs/WebpageDownloaderTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_91.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ianhwang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Referenced_Libraries/Web-Link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Referenced_Libraries/Web-Link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/Web-Link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/Web-Link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Referenced_Libraries/2000" beforeDir="false" afterPath="$PROJECT_DIR$/Referenced_Libraries/2000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Referenced_Libraries/2001" beforeDir="false" afterPath="$PROJECT_DIR$/Referenced_Libraries/2001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Referenced_Libraries/2002" beforeDir="false" afterPath="$PROJECT_DIR$/Referenced_Libraries/2002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trillio/2000" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/2000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trillio/2001" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/2001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trillio/2002" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/2002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/Dao/BookmarkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/Dao/BookmarkDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/Dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/BookGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/BookGenre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/KidsFriendlyStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/KidsFriendlyStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/MovieGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/MovieGenre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/UserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/constants/UserType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/controllers/BookmarkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/controllers/BookmarkController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Bookmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Bookmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/UserBookmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/UserBookmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/WebLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/entities/WebLink.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/DataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/DataStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/Launch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/Launch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/general/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/managers/BookmarkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/managers/BookmarkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/managers/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/managers/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/partner/Sharable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/partner/Sharable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/util/HttpConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/util/HttpConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/util/IOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trillio/com/Ian/trillio/util/IOUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/BookTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/MovieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/MovieTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/WebLinkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/trillio/com/Ian/trillio/entities/WebLinkTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/Dao/BookmarkDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/entities/WebLink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/DataStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/general/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ian/trillio/managers/BookmarkManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trillio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trillio.iml" afterDir="false" />
     </list>
@@ -73,10 +49,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562733437661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1565018022481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565018022481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="backup" />
     <MESSAGE value="data stored" />
-    <option name="LAST_COMMIT_MESSAGE" value="data stored" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
